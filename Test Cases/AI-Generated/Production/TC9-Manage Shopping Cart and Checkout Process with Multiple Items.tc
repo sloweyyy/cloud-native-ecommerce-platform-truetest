@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>7cb7061a-44e0-419a-9d59-aa7adf7b7242</id>
+        </flow>
+    </customField>
+    <description>Navigate to the store, add multiple items to the cart, adjust quantities, and proceed through the checkout process. Verify the cart and return to the store.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC9-Manage Shopping Cart and Checkout Process with Multiple Items</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>9d7a2322-e5b0-4112-ae4b-da191745582d</testCaseGuid>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Step 2: Click on button addToCart (addToCart) - (Dynamic locator variable)</description>
+        <id>b756bd4d-2b69-4f1f-8f0f-f710e2ef8a3a</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Step 3: Click on button addToCart (addToCart3) - (Dynamic locator variable)</description>
+        <id>506838e2-afce-4c48-9231-f41d7858e373</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Step 4: Click on button addToCart (addToCart2) - (Dynamic locator variable)</description>
+        <id>c7aefc69-8076-4670-982d-f92a1f0b5157</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Step 5: Click on button addToCart (addToCart) - (Dynamic locator variable)</description>
+        <id>37361f02-b74a-4e03-a309-a51c0b501cdb</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Step 19: Click on button addToCart (addToCart) - (Dynamic locator variable)</description>
+        <id>21794e7f-82da-432a-8654-3eac7abb27f4</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Step 24: Click on button addToCart (addToCart4) - (Dynamic locator variable)</description>
+        <id>fed7368c-2e32-4779-b65a-62b5793a37d8</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_5</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Step 25: Click on button addToCart (addToCart5) - (Dynamic locator variable)</description>
+        <id>0f512d1f-2514-43cc-9c4d-6f3569a2392b</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_6</name>
+    </variable>
+    <variable>
+        <defaultValue>'Shopping cart with 0 items'</defaultValue>
+        <description>Step 6: Click on button cartActions (cart2) -&gt; Navigate to page '/checkout' - (Dynamic locator variable)</description>
+        <id>8f7c6c17-dcab-4f91-aa03-4bb6c9c3217a</id>
+        <masked>false</masked>
+        <name>button_cartActions_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 10: Enter input value in input object - (Input data variable)</description>
+        <id>d5121349-411b-4a0c-8d06-9fcf5e7db2c3</id>
+        <masked>false</masked>
+        <name>input_object</name>
+    </variable>
+</TestCaseEntity>

@@ -1,0 +1,140 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to /store",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button addToCart (addToCart)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on button addToCart (addToCart3)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on button addToCart (addToCart2)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on button addToCart (addToCart)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on button cartActions (cart2) -> Navigate to page '/checkout'",
+            "sub_steps": [],
+            "target_name": "button_cartActions"
+        },
+        {
+            "name": "Click on button quantityAdjust (plus)",
+            "sub_steps": [],
+            "target_name": "button_quantityAdjust"
+        },
+        {
+            "name": "Click on span checkoutButton",
+            "sub_steps": [],
+            "target_name": "span_checkoutButton"
+        },
+        {
+            "name": "Click on span increaseValue",
+            "sub_steps": [],
+            "target_name": "span_increaseValue"
+        },
+        {
+            "name": "Enter input value in input object",
+            "sub_steps": [],
+            "target_name": "input_object"
+        },
+        {
+            "name": "Click on button quantityAdjust (plus2)",
+            "sub_steps": [],
+            "target_name": "button_quantityAdjust"
+        },
+        {
+            "name": "Click on span checkoutProceedButton",
+            "sub_steps": [],
+            "target_name": "span_checkoutProceedButton"
+        },
+        {
+            "name": "Click on span space",
+            "sub_steps": [],
+            "target_name": "span_space"
+        },
+        {
+            "name": "Click on span checkoutProceedButton",
+            "sub_steps": [],
+            "target_name": "span_checkoutProceedButton"
+        },
+        {
+            "name": "Click on span checkoutButton2",
+            "sub_steps": [],
+            "target_name": "span_checkoutButton2"
+        },
+        {
+            "name": "Click on button backToCart",
+            "sub_steps": [],
+            "target_name": "button_backToCart"
+        },
+        {
+            "name": "Click on button backToCart",
+            "sub_steps": [],
+            "target_name": "button_backToCart"
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Click on button addToCart (addToCart)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on span shoppingCartLabel -> Navigate to page '/checkout'",
+            "sub_steps": [],
+            "target_name": "span_shoppingCartLabel"
+        },
+        {
+            "name": "Click on div checkoutInfo",
+            "sub_steps": [],
+            "target_name": "div_checkoutInfo"
+        },
+        {
+            "name": "Click on span checkoutAction",
+            "sub_steps": [],
+            "target_name": "span_checkoutAction"
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Click on button addToCart (addToCart4)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on button addToCart (addToCart5)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on div productList -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "div_productList"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

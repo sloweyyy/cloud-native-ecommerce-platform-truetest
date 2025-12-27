@@ -1,0 +1,80 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to /",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button signIn",
+            "sub_steps": [],
+            "target_name": "button_signIn"
+        },
+        {
+            "name": "Click on item signIn -> Navigate to page '/login'",
+            "sub_steps": [],
+            "target_name": "item_signIn"
+        },
+        {
+            "name": "Click on button signInWithAzureAd -> Navigate to page '/'",
+            "sub_steps": [],
+            "target_name": "button_signInWithAzureAd"
+        },
+        {
+            "name": "Click on button allCategories",
+            "sub_steps": [],
+            "target_name": "button_allCategories"
+        },
+        {
+            "name": "Click on div homeNavigation",
+            "sub_steps": [],
+            "target_name": "div_homeNavigation"
+        },
+        {
+            "name": "Click on main homeContent",
+            "sub_steps": [],
+            "target_name": "main_homeContent"
+        },
+        {
+            "name": "Click on div homeCategories",
+            "sub_steps": [],
+            "target_name": "div_homeCategories"
+        },
+        {
+            "name": "Click on div homeCategories",
+            "sub_steps": [],
+            "target_name": "div_homeCategories"
+        },
+        {
+            "name": "Click on div homeNavigation",
+            "sub_steps": [],
+            "target_name": "div_homeNavigation"
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Click on button home -> Navigate to page '/'",
+            "sub_steps": [],
+            "target_name": "button_home"
+        },
+        {
+            "name": "Click on div homeNavigation",
+            "sub_steps": [],
+            "target_name": "div_homeNavigation"
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

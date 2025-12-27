@@ -1,0 +1,305 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to /",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Click on button signIn",
+            "sub_steps": [],
+            "target_name": "button_signIn"
+        },
+        {
+            "name": "Click on item signIn -> Navigate to page '/login'",
+            "sub_steps": [],
+            "target_name": "item_signIn"
+        },
+        {
+            "name": "Click on button signInWithAzureAd -> Navigate to page '/'",
+            "sub_steps": [],
+            "target_name": "button_signInWithAzureAd"
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Click on input search",
+            "sub_steps": [],
+            "target_name": "input_search"
+        },
+        {
+            "name": "Click on div brandAcer",
+            "sub_steps": [],
+            "target_name": "div_brandAcer"
+        },
+        {
+            "name": "Click on button viewDetails",
+            "sub_steps": [],
+            "target_name": "button_viewDetails"
+        },
+        {
+            "name": "Click on button viewDetails",
+            "sub_steps": [],
+            "target_name": "button_viewDetails"
+        },
+        {
+            "name": "Click on button backToStore",
+            "sub_steps": [],
+            "target_name": "button_backToStore"
+        },
+        {
+            "name": "Click on button viewDetails",
+            "sub_steps": [],
+            "target_name": "button_viewDetails"
+        },
+        {
+            "name": "Click on button backToStore",
+            "sub_steps": [],
+            "target_name": "button_backToStore"
+        },
+        {
+            "name": "Click on item product2",
+            "sub_steps": [],
+            "target_name": "item_product2"
+        },
+        {
+            "name": "Click on span default",
+            "sub_steps": [],
+            "target_name": "span_default"
+        },
+        {
+            "name": "Click on span default",
+            "sub_steps": [],
+            "target_name": "span_default"
+        },
+        {
+            "name": "Click on button home -> Navigate to page '/admin'",
+            "sub_steps": [],
+            "target_name": "button_home"
+        },
+        {
+            "name": "Click on button createNewProduct -> Navigate to page '/admin/products/new'",
+            "sub_steps": [],
+            "target_name": "button_createNewProduct"
+        },
+        {
+            "name": "Click on input productName",
+            "sub_steps": [],
+            "target_name": "input_productName"
+        },
+        {
+            "name": "Click on div productName",
+            "sub_steps": [],
+            "target_name": "div_productName"
+        },
+        {
+            "name": "Click on input productName",
+            "sub_steps": [],
+            "target_name": "input_productName"
+        },
+        {
+            "name": "Enter input value in input productName",
+            "sub_steps": [],
+            "target_name": "input_productName"
+        },
+        {
+            "name": "Click on input summary",
+            "sub_steps": [],
+            "target_name": "input_summary"
+        },
+        {
+            "name": "Enter input value in input summary",
+            "sub_steps": [],
+            "target_name": "input_summary"
+        },
+        {
+            "name": "Click on textarea description",
+            "sub_steps": [],
+            "target_name": "textarea_description"
+        },
+        {
+            "name": "Click on input summary",
+            "sub_steps": [],
+            "target_name": "input_summary"
+        },
+        {
+            "name": "Enter input value in input summary",
+            "sub_steps": [],
+            "target_name": "input_summary"
+        },
+        {
+            "name": "Click on textarea description",
+            "sub_steps": [],
+            "target_name": "textarea_description"
+        },
+        {
+            "name": "Enter input value in textarea description",
+            "sub_steps": [],
+            "target_name": "textarea_description"
+        },
+        {
+            "name": "Click on input summary",
+            "sub_steps": [],
+            "target_name": "input_summary"
+        },
+        {
+            "name": "Click on input productName",
+            "sub_steps": [],
+            "target_name": "input_productName"
+        },
+        {
+            "name": "Click on div productDescription",
+            "sub_steps": [],
+            "target_name": "div_productDescription"
+        },
+        {
+            "name": "Click on input productName",
+            "sub_steps": [],
+            "target_name": "input_productName"
+        },
+        {
+            "name": "Enter input value in input productName",
+            "sub_steps": [],
+            "target_name": "input_productName"
+        },
+        {
+            "name": "Click on label summary",
+            "sub_steps": [],
+            "target_name": "label_summary"
+        },
+        {
+            "name": "Click on input summary",
+            "sub_steps": [],
+            "target_name": "input_summary"
+        },
+        {
+            "name": "Enter input value in input summary",
+            "sub_steps": [],
+            "target_name": "input_summary"
+        },
+        {
+            "name": "Click on label description",
+            "sub_steps": [],
+            "target_name": "label_description"
+        },
+        {
+            "name": "Click on textarea description",
+            "sub_steps": [],
+            "target_name": "textarea_description"
+        },
+        {
+            "name": "Enter input value in textarea description",
+            "sub_steps": [],
+            "target_name": "textarea_description"
+        },
+        {
+            "name": "Click on input price",
+            "sub_steps": [],
+            "target_name": "input_price"
+        },
+        {
+            "name": "Enter input value in input price",
+            "sub_steps": [],
+            "target_name": "input_price"
+        },
+        {
+            "name": "Click on input brand",
+            "sub_steps": [],
+            "target_name": "input_brand"
+        },
+        {
+            "name": "Click on div productBrands (productHp)",
+            "sub_steps": [],
+            "target_name": "div_productBrands"
+        },
+        {
+            "name": "Click on input type",
+            "sub_steps": [],
+            "target_name": "input_type"
+        },
+        {
+            "name": "Click on div productBrands (keyboards)",
+            "sub_steps": [],
+            "target_name": "div_productBrands"
+        },
+        {
+            "name": "Click on span uploadImage",
+            "sub_steps": [],
+            "target_name": "span_uploadImage"
+        },
+        {
+            "name": "Click on input price",
+            "sub_steps": [],
+            "target_name": "input_price"
+        },
+        {
+            "name": "Enter input value in input price",
+            "sub_steps": [],
+            "target_name": "input_price"
+        },
+        {
+            "name": "Click on span uploadImage",
+            "sub_steps": [],
+            "target_name": "span_uploadImage"
+        },
+        {
+            "name": "Click on span upload",
+            "sub_steps": [],
+            "target_name": "span_upload"
+        },
+        {
+            "name": "Click on span uploadImage",
+            "sub_steps": [],
+            "target_name": "span_uploadImage"
+        },
+        {
+            "name": "Click on div imageUpload",
+            "sub_steps": [],
+            "target_name": "div_imageUpload"
+        },
+        {
+            "name": "Click on span uploadImage",
+            "sub_steps": [],
+            "target_name": "span_uploadImage"
+        },
+        {
+            "name": "Click on item brandsAndTypes -> Navigate to page '/admin/brands-types'",
+            "sub_steps": [],
+            "target_name": "item_brandsAndTypes"
+        },
+        {
+            "name": "Click on item orders -> Navigate to page '/admin/orders'",
+            "sub_steps": [],
+            "target_name": "item_orders"
+        },
+        {
+            "name": "Click on item products -> Navigate to page '/admin/products'",
+            "sub_steps": [],
+            "target_name": "item_products"
+        },
+        {
+            "name": "Click on item dashboard -> Navigate to page '/admin'",
+            "sub_steps": [],
+            "target_name": "item_dashboard"
+        },
+        {
+            "name": "Click on item products -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "item_products"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

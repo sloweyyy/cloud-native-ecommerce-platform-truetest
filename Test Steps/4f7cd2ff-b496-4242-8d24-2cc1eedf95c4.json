@@ -1,0 +1,50 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to /",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button checkout",
+            "sub_steps": [],
+            "target_name": "button_checkout"
+        },
+        {
+            "name": "Click on div categories",
+            "sub_steps": [],
+            "target_name": "div_categories"
+        },
+        {
+            "name": "Click on button userMenu",
+            "sub_steps": [],
+            "target_name": "button_userMenu"
+        },
+        {
+            "name": "Click on button userMenu",
+            "sub_steps": [],
+            "target_name": "button_userMenu"
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Click on span newArrivals",
+            "sub_steps": [],
+            "target_name": "span_newArrivals"
+        },
+        {
+            "name": "Click on button checkout -> Navigate to page '/checkout'",
+            "sub_steps": [],
+            "target_name": "button_checkout"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

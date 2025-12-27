@@ -1,0 +1,237 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+2,Navigate to Checkout and Verify Checkout Page,"Navigate to the home page, access the user menu, explore categories, and proceed to checkout. Verify that the checkout page is displayed.","Step 1: Navigate to /
+Step 2: Click on button checkout
+Step 3: Click on div categories
+Step 4: Click on button userMenu
+Step 5: Click on button userMenu
+Step 6: Click on button store -> Navigate to page '/store'
+Step 7: Click on span newArrivals
+Step 8: Click on button checkout -> Navigate to page '/checkout'
+Step 9: Take full page screenshot as checkpoint
+",High,NEW
+3,Sign In and Manage Checkout Options,"Login using Azure AD, access checkout, remove items, and explore product categories. Verify the admin page after clearing filters.","Step 1: Navigate to /login
+Step 2: Click on button signInWithAzureAd -> Navigate to page '/'
+Step 3: Click on button checkout -> Navigate to page '/checkout'
+Step 4: Click on span removeProduct
+Step 5: Click on button removeItem
+Step 6: Click on button checkoutOptions (proceedToCheckout)
+Step 7: Click on button checkoutOptions (proceedToCheckout)
+Step 8: Click on button proceedToCheckout2
+Step 9: Click on button proceedToCheckout3
+Step 10: Click on button continueShopping -> Navigate to page '/store'
+Step 11: Click on span newArrivals
+Step 12: Click on span bestSeller
+Step 13: Click on span productCategories (laptops)
+Step 14: Click on span productCategories (keyboards)
+Step 15: Click on span productCategories (monitors)
+Step 16: Click on span productCategories (mice)
+Step 17: Click on button clearFilters -> Navigate to page '/admin'
+Step 18: Take full page screenshot as checkpoint
+",High,NEW
+4,Verify Navigation to Home Page from Next Tech Home Button,Navigate to the home page and click the Next Tech Home button. Verify that the home page is displayed correctly.,"Step 1: Navigate to /
+Step 2: Click on button nextTechHome -> Navigate to page ''
+Step 3: Take full page screenshot as checkpoint
+",High,NEW
+1,Sign In and Add Products to Checkout,"Login, navigate to the store, add products to the cart, and proceed to checkout. Verify that the home page is displayed after actions.","Step 1: Navigate to /
+Step 2: Click on button signIn
+Step 3: Click on button store -> Navigate to page '/store'
+Step 4: Click on button signIn
+Step 5: Click on item signIn -> Navigate to page '/login'
+Step 6: Click on button signInWithAzureAd
+Step 7: Click on button signInWithAzureAd -> Navigate to page '/'
+Step 8: Click on button cart -> Navigate to page '/checkout'
+Step 9: Click on div productDetails
+Step 10: Click on button store -> Navigate to page '/store'
+Step 11: Click on button addToCart (addToCart)
+Step 12: Click on span productCardButton
+Step 13: Click on button checkout -> Navigate to page '/checkout'
+Step 14: Click on div productDetails2 -> Navigate to page '/store'
+Step 15: Click on span productCategories (mice) -> Navigate to page ''
+Step 16: Take full page screenshot as checkpoint
+",Medium,NEW
+6,Explore Store Categories and Verify Store Page,"Login, navigate through home categories, and access the store. Verify that the store page is displayed after navigation.","Step 1: Navigate to /
+Step 2: Click on button signIn
+Step 3: Click on item signIn -> Navigate to page '/login'
+Step 4: Click on button signInWithAzureAd -> Navigate to page '/'
+Step 5: Click on button allCategories
+Step 6: Click on div homeNavigation
+Step 7: Click on main homeContent
+Step 8: Click on div homeCategories
+Step 9: Click on div homeCategories
+Step 10: Click on div homeNavigation
+Step 11: Click on button store -> Navigate to page '/store'
+Step 12: Click on button home -> Navigate to page '/'
+Step 13: Click on div homeNavigation
+Step 14: Click on button store -> Navigate to page '/store'
+Step 15: Take full page screenshot as checkpoint
+",Medium,NEW
+5,Verify Checkout Process with Multiple Items in Store,"Navigate to the home page, sign in, add items to the cart, and complete the checkout process multiple times. Verify the home page after each action.","Step 1: Navigate to /
+Step 2: Click on button signIn
+Step 3: Click on item signIn -> Navigate to page '/login'
+Step 4: Click on button signInWithAzureAd2 -> Navigate to page '/'
+Step 5: Click on button store -> Navigate to page '/store'
+Step 6: Click on button addToCart (addToCart2)
+Step 7: Click on button checkout -> Navigate to page '/checkout'
+Step 8: Click on button checkoutOptions (continueShopping2)
+Step 9: Click on button checkoutOptions (proceedToCheckout)
+Step 10: Click on button checkoutOptions (proceedToCheckout)
+Step 11: Click on div checkoutSummary
+Step 12: Click on main orderSummary
+Step 13: Click on button nextTechHome -> Navigate to page '/'
+Step 14: Click on button store -> Navigate to page '/store'
+Step 15: Click on button addToCart (addToCart3)
+Step 16: Click on button cartActions (cart) -> Navigate to page '/checkout'
+Step 17: Click on button checkoutOptions (proceedToCheckout) -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",Low,NEW
+9,Manage Shopping Cart and Checkout Process with Multiple Items,"Navigate to the store, add multiple items to the cart, adjust quantities, and proceed through the checkout process. Verify the cart and return to the store.","Step 1: Navigate to /store
+Step 2: Click on button addToCart (addToCart)
+Step 3: Click on button addToCart (addToCart3)
+Step 4: Click on button addToCart (addToCart2)
+Step 5: Click on button addToCart (addToCart)
+Step 6: Click on button cartActions (cart2) -> Navigate to page '/checkout'
+Step 7: Click on button quantityAdjust (plus)
+Step 8: Click on span checkoutButton
+Step 9: Click on span increaseValue
+Step 10: Enter input value in input object
+Step 11: Click on button quantityAdjust (plus2)
+Step 12: Click on span checkoutProceedButton
+Step 13: Click on span space
+Step 14: Click on span checkoutProceedButton
+Step 15: Click on span checkoutButton2
+Step 16: Click on button backToCart
+Step 17: Click on button backToCart
+Step 18: Click on button store -> Navigate to page '/store'
+Step 19: Click on button addToCart (addToCart)
+Step 20: Click on span shoppingCartLabel -> Navigate to page '/checkout'
+Step 21: Click on div checkoutInfo
+Step 22: Click on span checkoutAction
+Step 23: Click on button store -> Navigate to page '/store'
+Step 24: Click on button addToCart (addToCart4)
+Step 25: Click on button addToCart (addToCart5)
+Step 26: Click on div productList -> Navigate to page ''
+Step 27: Take full page screenshot as checkpoint
+",Low,NEW
+8,Create New Product in Admin Panel with Detailed Information,"Navigate to the admin panel, create a new product by filling in all required fields, and upload images. Verify the product creation and return to the home page.","Step 1: Navigate to /admin
+Step 2: Click on item products -> Navigate to page '/admin/products'
+Step 3: Click on button createNewProduct -> Navigate to page '/admin/products/new'
+Step 4: Click on label productName
+Step 5: Click on input productName
+Step 6: Enter input value in input productName
+Step 7: Click on input summary
+Step 8: Click on label summary
+Step 9: Click on input summary
+Step 10: Enter input value in input summary
+Step 11: Click on label description
+Step 12: Click on textarea description
+Step 13: Enter input value in textarea description
+Step 14: Click on input price
+Step 15: Enter input value in input price
+Step 16: Click on input brand
+Step 17: Click on div productBrands (acers)
+Step 18: Click on input type
+Step 19: Click on div productBrands (keyboards)
+Step 20: Click on div productImageLabel
+Step 21: Click on span uploadImage
+Step 22: Click on div pricingClassification
+Step 23: Click on span acers
+Step 24: Click on item brandsAndTypes -> Navigate to page '/admin/brands-types'
+Step 25: Click on div typesTab
+Step 26: Click on div brandsTab
+Step 27: Click on input brandName
+Step 28: Enter input value in input brandName
+Step 29: Click on button addBrand
+Step 30: Click on item dashboard -> Navigate to page '/admin'
+Step 31: Click on item products -> Navigate to page '/admin/products'
+Step 32: Click on button createNewProduct -> Navigate to page '/admin/products/new'
+Step 33: Click on span upload
+Step 34: Click on input productName
+Step 35: Click on label productName
+Step 36: Click on label productName
+Step 37: Click on input productName
+Step 38: Enter input value in input productName
+Step 39: Click on label summary
+Step 40: Click on input summary
+Step 41: Enter input value in input summary
+Step 42: Click on div productDescription
+Step 43: Click on label description
+Step 44: Click on label description
+Step 45: Click on textarea description
+Step 46: Enter input value in textarea description
+Step 47: Click on input price
+Step 48: Enter input value in input price
+Step 49: Click on input brand
+Step 50: Click on div productBrands (brandKeychron)
+Step 51: Click on input type
+Step 52: Click on div productBrands (keyboards)
+Step 53: Click on span uploadImage
+Step 54: Click on span eyeIcon
+Step 55: Click on button createProduct -> Navigate to page '/admin/products'
+Step 56: Click on link product3
+Step 57: Click on td productName
+Step 58: Click on td productName
+Step 59: Click on strong productName
+Step 60: Click on div productImageMask -> Navigate to page ''
+Step 61: Take full page screenshot as checkpoint
+",Trivial,NEW
+7,Search and Create New Product After Viewing Details,"Navigate to the store, sign in, search for products, view details, and create a new product with comprehensive information. Verify the home page after actions.","Step 1: Navigate to /
+Step 2: Click on button store -> Navigate to page '/store'
+Step 3: Click on button signIn
+Step 4: Click on item signIn -> Navigate to page '/login'
+Step 5: Click on button signInWithAzureAd -> Navigate to page '/'
+Step 6: Click on button store -> Navigate to page '/store'
+Step 7: Click on input search
+Step 8: Click on div brandAcer
+Step 9: Click on button viewDetails
+Step 10: Click on button viewDetails
+Step 11: Click on button backToStore
+Step 12: Click on button viewDetails
+Step 13: Click on button backToStore
+Step 14: Click on item product2
+Step 15: Click on span default
+Step 16: Click on span default
+Step 17: Click on button home -> Navigate to page '/admin'
+Step 18: Click on button createNewProduct -> Navigate to page '/admin/products/new'
+Step 19: Click on input productName
+Step 20: Click on div productName
+Step 21: Click on input productName
+Step 22: Enter input value in input productName
+Step 23: Click on input summary
+Step 24: Enter input value in input summary
+Step 25: Click on textarea description
+Step 26: Click on input summary
+Step 27: Enter input value in input summary
+Step 28: Click on textarea description
+Step 29: Enter input value in textarea description
+Step 30: Click on input summary
+Step 31: Click on input productName
+Step 32: Click on div productDescription
+Step 33: Click on input productName
+Step 34: Enter input value in input productName
+Step 35: Click on label summary
+Step 36: Click on input summary
+Step 37: Enter input value in input summary
+Step 38: Click on label description
+Step 39: Click on textarea description
+Step 40: Enter input value in textarea description
+Step 41: Click on input price
+Step 42: Enter input value in input price
+Step 43: Click on input brand
+Step 44: Click on div productBrands (productHp)
+Step 45: Click on input type
+Step 46: Click on div productBrands (keyboards)
+Step 47: Click on span uploadImage
+Step 48: Click on input price
+Step 49: Enter input value in input price
+Step 50: Click on span uploadImage
+Step 51: Click on span upload
+Step 52: Click on span uploadImage
+Step 53: Click on div imageUpload
+Step 54: Click on span uploadImage
+Step 55: Click on item brandsAndTypes -> Navigate to page '/admin/brands-types'
+Step 56: Click on item orders -> Navigate to page '/admin/orders'
+Step 57: Click on item products -> Navigate to page '/admin/products'
+Step 58: Click on item dashboard -> Navigate to page '/admin'
+Step 59: Click on item products -> Navigate to page ''
+Step 60: Take full page screenshot as checkpoint
+",Trivial,NEW

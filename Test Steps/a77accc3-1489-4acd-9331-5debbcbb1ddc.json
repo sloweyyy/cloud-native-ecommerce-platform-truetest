@@ -1,0 +1,85 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to /",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button signIn",
+            "sub_steps": [],
+            "target_name": "button_signIn"
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Click on button signIn",
+            "sub_steps": [],
+            "target_name": "button_signIn"
+        },
+        {
+            "name": "Click on item signIn -> Navigate to page '/login'",
+            "sub_steps": [],
+            "target_name": "item_signIn"
+        },
+        {
+            "name": "Click on button signInWithAzureAd",
+            "sub_steps": [],
+            "target_name": "button_signInWithAzureAd"
+        },
+        {
+            "name": "Click on button signInWithAzureAd -> Navigate to page '/'",
+            "sub_steps": [],
+            "target_name": "button_signInWithAzureAd"
+        },
+        {
+            "name": "Click on button cart -> Navigate to page '/checkout'",
+            "sub_steps": [],
+            "target_name": "button_cart"
+        },
+        {
+            "name": "Click on div productDetails",
+            "sub_steps": [],
+            "target_name": "div_productDetails"
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Click on button addToCart (addToCart)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on span productCardButton",
+            "sub_steps": [],
+            "target_name": "span_productCardButton"
+        },
+        {
+            "name": "Click on button checkout -> Navigate to page '/checkout'",
+            "sub_steps": [],
+            "target_name": "button_checkout"
+        },
+        {
+            "name": "Click on div productDetails2 -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "div_productDetails2"
+        },
+        {
+            "name": "Click on span productCategories (mice) -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "span_productCategories"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

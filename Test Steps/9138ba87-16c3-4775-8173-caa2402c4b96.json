@@ -1,0 +1,95 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to /",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button signIn",
+            "sub_steps": [],
+            "target_name": "button_signIn"
+        },
+        {
+            "name": "Click on item signIn -> Navigate to page '/login'",
+            "sub_steps": [],
+            "target_name": "item_signIn"
+        },
+        {
+            "name": "Click on button signInWithAzureAd2 -> Navigate to page '/'",
+            "sub_steps": [],
+            "target_name": "button_signInWithAzureAd2"
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Click on button addToCart (addToCart2)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on button checkout -> Navigate to page '/checkout'",
+            "sub_steps": [],
+            "target_name": "button_checkout"
+        },
+        {
+            "name": "Click on button checkoutOptions (continueShopping2)",
+            "sub_steps": [],
+            "target_name": "button_checkoutOptions"
+        },
+        {
+            "name": "Click on button checkoutOptions (proceedToCheckout)",
+            "sub_steps": [],
+            "target_name": "button_checkoutOptions"
+        },
+        {
+            "name": "Click on button checkoutOptions (proceedToCheckout)",
+            "sub_steps": [],
+            "target_name": "button_checkoutOptions"
+        },
+        {
+            "name": "Click on div checkoutSummary",
+            "sub_steps": [],
+            "target_name": "div_checkoutSummary"
+        },
+        {
+            "name": "Click on main orderSummary",
+            "sub_steps": [],
+            "target_name": "main_orderSummary"
+        },
+        {
+            "name": "Click on button nextTechHome -> Navigate to page '/'",
+            "sub_steps": [],
+            "target_name": "button_nextTechHome"
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Click on button addToCart (addToCart3)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on button cartActions (cart) -> Navigate to page '/checkout'",
+            "sub_steps": [],
+            "target_name": "button_cartActions"
+        },
+        {
+            "name": "Click on button checkoutOptions (proceedToCheckout) -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "button_checkoutOptions"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to /login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button signInWithAzureAd -> Navigate to page '/'",
+            "sub_steps": [],
+            "target_name": "button_signInWithAzureAd"
+        },
+        {
+            "name": "Click on button checkout -> Navigate to page '/checkout'",
+            "sub_steps": [],
+            "target_name": "button_checkout"
+        },
+        {
+            "name": "Click on span removeProduct",
+            "sub_steps": [],
+            "target_name": "span_removeProduct"
+        },
+        {
+            "name": "Click on button removeItem",
+            "sub_steps": [],
+            "target_name": "button_removeItem"
+        },
+        {
+            "name": "Click on button checkoutOptions (proceedToCheckout)",
+            "sub_steps": [],
+            "target_name": "button_checkoutOptions"
+        },
+        {
+            "name": "Click on button checkoutOptions (proceedToCheckout)",
+            "sub_steps": [],
+            "target_name": "button_checkoutOptions"
+        },
+        {
+            "name": "Click on button proceedToCheckout2",
+            "sub_steps": [],
+            "target_name": "button_proceedToCheckout2"
+        },
+        {
+            "name": "Click on button proceedToCheckout3",
+            "sub_steps": [],
+            "target_name": "button_proceedToCheckout3"
+        },
+        {
+            "name": "Click on button continueShopping -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_continueShopping"
+        },
+        {
+            "name": "Click on span newArrivals",
+            "sub_steps": [],
+            "target_name": "span_newArrivals"
+        },
+        {
+            "name": "Click on span bestSeller",
+            "sub_steps": [],
+            "target_name": "span_bestSeller"
+        },
+        {
+            "name": "Click on span productCategories (laptops)",
+            "sub_steps": [],
+            "target_name": "span_productCategories"
+        },
+        {
+            "name": "Click on span productCategories (keyboards)",
+            "sub_steps": [],
+            "target_name": "span_productCategories"
+        },
+        {
+            "name": "Click on span productCategories (monitors)",
+            "sub_steps": [],
+            "target_name": "span_productCategories"
+        },
+        {
+            "name": "Click on span productCategories (mice)",
+            "sub_steps": [],
+            "target_name": "span_productCategories"
+        },
+        {
+            "name": "Click on button clearFilters -> Navigate to page '/admin'",
+            "sub_steps": [],
+            "target_name": "button_clearFilters"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}
