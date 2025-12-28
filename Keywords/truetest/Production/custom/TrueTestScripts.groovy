@@ -23,6 +23,7 @@ public class TrueTestScripts {
             // import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
             // import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
             // WebUI.callTestCase(findTestCase('<path to testcase>/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+            WebUI.callTestCase(findTestCase('AI-Generated/Production/TC0-Sign in'), [:], FailureHandling.STOP_ON_FAILURE)
             // Trigger a custom Login method
             // import your.package
             // import authentication.Login

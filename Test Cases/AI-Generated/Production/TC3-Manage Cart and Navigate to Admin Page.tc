@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>b8fe8a35-e423-4b81-9df9-abb2b0ae9fd6</id>
+        </flow>
+    </customField>
+    <description>Log in, manage items in the cart, proceed through checkout options, and navigate to the admin page after clearing filters.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC3-Manage Cart and Navigate to Admin Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>f8862853-e2ef-4c26-b4f7-13ade44ef092</testCaseGuid>
+    <variable>
+        <defaultValue>'Proceed to Checkout'</defaultValue>
+        <description>Step 8: Click on button checkoutOptions (proceedToCheckout) - (Dynamic locator variable)</description>
+        <id>479ffc07-b434-44c5-8b55-7921cd1bce03</id>
+        <masked>false</masked>
+        <name>button_checkoutOptions_buttonInternalHasText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Proceed to Checkout'</defaultValue>
+        <description>Step 9: Click on button checkoutOptions (proceedToCheckout) - (Dynamic locator variable)</description>
+        <id>d634adf0-fffe-4f42-87ec-159cbdb4b4c6</id>
+        <masked>false</masked>
+        <name>button_checkoutOptions_buttonInternalHasText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'4'</defaultValue>
+        <description>Step 15: Click on span productCategories (laptops) - (Dynamic locator variable)</description>
+        <id>04b832d3-462b-416a-b335-515f4d177a84</id>
+        <masked>false</masked>
+        <name>span_productCategories_divNthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Step 16: Click on span productCategories (keyboards) - (Dynamic locator variable)</description>
+        <id>1d6f832a-5d0c-4b39-a930-0968106e32e7</id>
+        <masked>false</masked>
+        <name>span_productCategories_divNthChild_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'6'</defaultValue>
+        <description>Step 17: Click on span productCategories (monitors) - (Dynamic locator variable)</description>
+        <id>d837af7a-c1a6-4f0d-8df6-211900b18bf0</id>
+        <masked>false</masked>
+        <name>span_productCategories_divNthChild_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'7'</defaultValue>
+        <description>Step 18: Click on span productCategories (mice) - (Dynamic locator variable)</description>
+        <id>bbb5e6d1-06e8-4172-a51d-c69b2d48d445</id>
+        <masked>false</masked>
+        <name>span_productCategories_divNthChild_3</name>
+    </variable>
+</TestCaseEntity>

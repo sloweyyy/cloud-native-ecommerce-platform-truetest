@@ -1,237 +1,273 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-2,Navigate to Checkout and Verify Checkout Page,"Navigate to the home page, access the user menu, explore categories, and proceed to checkout. Verify that the checkout page is displayed.","Step 1: Navigate to /
-Step 2: Click on button checkout
-Step 3: Click on div categories
-Step 4: Click on button userMenu
-Step 5: Click on button userMenu
-Step 6: Click on button store -> Navigate to page '/store'
-Step 7: Click on span newArrivals
-Step 8: Click on button checkout -> Navigate to page '/checkout'
+10,Login and Navigate to Home Page with Azure AD,"Navigate to the home page, log in, and verify successful navigation to the home page using Azure AD authentication.","Step 1: Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com
+Step 2: Login
+Step 3: Navigate to /
+Step 4: Click on button signIn
+Step 5: Click on button store -> Navigate to page '/store'
+Step 6: Click on button signIn
+Step 7: Click on item signIn -> Navigate to page '/login'
+Step 8: Click on button signInWithAzureAd -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
 ",High,NEW
-3,Sign In and Manage Checkout Options,"Login using Azure AD, access checkout, remove items, and explore product categories. Verify the admin page after clearing filters.","Step 1: Navigate to /login
-Step 2: Click on button signInWithAzureAd -> Navigate to page '/'
-Step 3: Click on button checkout -> Navigate to page '/checkout'
-Step 4: Click on span removeProduct
-Step 5: Click on button removeItem
-Step 6: Click on button checkoutOptions (proceedToCheckout)
-Step 7: Click on button checkoutOptions (proceedToCheckout)
-Step 8: Click on button proceedToCheckout2
-Step 9: Click on button proceedToCheckout3
-Step 10: Click on button continueShopping -> Navigate to page '/store'
-Step 11: Click on span newArrivals
-Step 12: Click on span bestSeller
-Step 13: Click on span productCategories (laptops)
-Step 14: Click on span productCategories (keyboards)
-Step 15: Click on span productCategories (monitors)
-Step 16: Click on span productCategories (mice)
-Step 17: Click on button clearFilters -> Navigate to page '/admin'
-Step 18: Take full page screenshot as checkpoint
-",High,NEW
-4,Verify Navigation to Home Page from Next Tech Home Button,Navigate to the home page and click the Next Tech Home button. Verify that the home page is displayed correctly.,"Step 1: Navigate to /
-Step 2: Click on button nextTechHome -> Navigate to page ''
-Step 3: Take full page screenshot as checkpoint
-",High,NEW
-1,Sign In and Add Products to Checkout,"Login, navigate to the store, add products to the cart, and proceed to checkout. Verify that the home page is displayed after actions.","Step 1: Navigate to /
-Step 2: Click on button signIn
-Step 3: Click on button store -> Navigate to page '/store'
+11,Login and Verify Page Login with Azure AD,"Navigate to the home page, log in, and verify successful access to the login page using Azure AD.","Step 1: Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com
+Step 2: Login
+Step 3: Navigate to /
 Step 4: Click on button signIn
 Step 5: Click on item signIn -> Navigate to page '/login'
 Step 6: Click on button signInWithAzureAd
-Step 7: Click on button signInWithAzureAd -> Navigate to page '/'
-Step 8: Click on button cart -> Navigate to page '/checkout'
-Step 9: Click on div productDetails
-Step 10: Click on button store -> Navigate to page '/store'
-Step 11: Click on button addToCart (addToCart)
-Step 12: Click on span productCardButton
-Step 13: Click on button checkout -> Navigate to page '/checkout'
-Step 14: Click on div productDetails2 -> Navigate to page '/store'
-Step 15: Click on span productCategories (mice) -> Navigate to page ''
-Step 16: Take full page screenshot as checkpoint
-",Medium,NEW
-6,Explore Store Categories and Verify Store Page,"Login, navigate through home categories, and access the store. Verify that the store page is displayed after navigation.","Step 1: Navigate to /
-Step 2: Click on button signIn
-Step 3: Click on item signIn -> Navigate to page '/login'
+Step 7: Take full page screenshot as checkpoint
+",High,NEW
+4,Verify Navigation to Next Tech Home Page,Login to the home page and navigate to the next tech home section. Verify that the home page is displayed as expected.,"Step 1: Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com
+Step 2: Login
+Step 3: Navigate to /
+Step 4: Click on button nextTechHome -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+3,Manage Cart and Navigate to Admin Page,"Log in, manage items in the cart, proceed through checkout options, and navigate to the admin page after clearing filters.","Step 1: Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com
+Step 2: Login
+Step 3: Navigate to /login
 Step 4: Click on button signInWithAzureAd -> Navigate to page '/'
-Step 5: Click on button allCategories
-Step 6: Click on div homeNavigation
-Step 7: Click on main homeContent
-Step 8: Click on div homeCategories
-Step 9: Click on div homeCategories
-Step 10: Click on div homeNavigation
-Step 11: Click on button store -> Navigate to page '/store'
-Step 12: Click on button home -> Navigate to page '/'
-Step 13: Click on div homeNavigation
-Step 14: Click on button store -> Navigate to page '/store'
-Step 15: Take full page screenshot as checkpoint
-",Medium,NEW
-5,Verify Checkout Process with Multiple Items in Store,"Navigate to the home page, sign in, add items to the cart, and complete the checkout process multiple times. Verify the home page after each action.","Step 1: Navigate to /
-Step 2: Click on button signIn
-Step 3: Click on item signIn -> Navigate to page '/login'
-Step 4: Click on button signInWithAzureAd2 -> Navigate to page '/'
-Step 5: Click on button store -> Navigate to page '/store'
-Step 6: Click on button addToCart (addToCart2)
-Step 7: Click on button checkout -> Navigate to page '/checkout'
-Step 8: Click on button checkoutOptions (continueShopping2)
+Step 5: Click on button checkout -> Navigate to page '/checkout'
+Step 6: Click on span removeProduct
+Step 7: Click on button removeItem
+Step 8: Click on button checkoutOptions (proceedToCheckout)
 Step 9: Click on button checkoutOptions (proceedToCheckout)
-Step 10: Click on button checkoutOptions (proceedToCheckout)
-Step 11: Click on div checkoutSummary
-Step 12: Click on main orderSummary
-Step 13: Click on button nextTechHome -> Navigate to page '/'
-Step 14: Click on button store -> Navigate to page '/store'
-Step 15: Click on button addToCart (addToCart3)
-Step 16: Click on button cartActions (cart) -> Navigate to page '/checkout'
-Step 17: Click on button checkoutOptions (proceedToCheckout) -> Navigate to page ''
+Step 10: Click on button proceedToCheckout2
+Step 11: Click on button proceedToCheckout3
+Step 12: Click on button continueShopping -> Navigate to page '/store'
+Step 13: Click on span newArrivals
+Step 14: Click on span bestSeller
+Step 15: Click on span productCategories (laptops)
+Step 16: Click on span productCategories (keyboards)
+Step 17: Click on span productCategories (monitors)
+Step 18: Click on span productCategories (mice)
+Step 19: Click on button clearFilters -> Navigate to page '/admin'
+Step 20: Take full page screenshot as checkpoint
+",Medium,NEW
+2,Navigate and Verify Checkout Page from Store,"Login, navigate through categories, and access the checkout page to ensure it loads correctly.","Step 1: Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com
+Step 2: Login
+Step 3: Navigate to /
+Step 4: Click on button checkout
+Step 5: Click on div categories
+Step 6: Click on button userMenu
+Step 7: Click on button userMenu
+Step 8: Click on button store -> Navigate to page '/store'
+Step 9: Click on span newArrivals
+Step 10: Click on button checkout -> Navigate to page '/checkout'
+Step 11: Take full page screenshot as checkpoint
+",Medium,NEW
+6,Navigate and Sign In to Store Categories,"Login to the home page, navigate through various categories, and access the store. Verify that the store page is displayed correctly.","Step 1: Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com
+Step 2: Login
+Step 3: Navigate to /
+Step 4: Click on button signIn
+Step 5: Click on item signIn -> Navigate to page '/login'
+Step 6: Click on button signInWithAzureAd -> Navigate to page '/'
+Step 7: Click on button allCategories
+Step 8: Click on div homeNavigation
+Step 9: Click on main homeContent
+Step 10: Click on div homeCategories
+Step 11: Click on div homeCategories
+Step 12: Click on div homeNavigation
+Step 13: Click on button store -> Navigate to page '/store'
+Step 14: Click on button home -> Navigate to page '/'
+Step 15: Click on div homeNavigation
+Step 16: Click on button store -> Navigate to page '/store'
+Step 17: Take full page screenshot as checkpoint
+",Medium,NEW
+1,Add Items to Cart and Verify Home Page,"Log in, add items to the cart, and verify successful navigation back to the home page after checking out.","Step 1: Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com
+Step 2: Login
+Step 3: Navigate to /
+Step 4: Click on button signIn
+Step 5: Click on button store -> Navigate to page '/store'
+Step 6: Click on button signIn
+Step 7: Click on item signIn2 -> Navigate to page '/login'
+Step 8: Click on button signInWithAzureAd
+Step 9: Click on button signInWithAzureAd -> Navigate to page '/'
+Step 10: Click on button cart -> Navigate to page '/checkout'
+Step 11: Click on div productDetails
+Step 12: Click on button store -> Navigate to page '/store'
+Step 13: Click on button addToCart (addToCart)
+Step 14: Click on span productCardButton
+Step 15: Click on button checkout -> Navigate to page '/checkout'
+Step 16: Click on div productDetails2 -> Navigate to page '/store'
+Step 17: Click on span productCategories (mice) -> Navigate to page ''
 Step 18: Take full page screenshot as checkpoint
 ",Low,NEW
-9,Manage Shopping Cart and Checkout Process with Multiple Items,"Navigate to the store, add multiple items to the cart, adjust quantities, and proceed through the checkout process. Verify the cart and return to the store.","Step 1: Navigate to /store
-Step 2: Click on button addToCart (addToCart)
-Step 3: Click on button addToCart (addToCart3)
-Step 4: Click on button addToCart (addToCart2)
-Step 5: Click on button addToCart (addToCart)
-Step 6: Click on button cartActions (cart2) -> Navigate to page '/checkout'
-Step 7: Click on button quantityAdjust (plus)
-Step 8: Click on span checkoutButton
-Step 9: Click on span increaseValue
-Step 10: Enter input value in input object
-Step 11: Click on button quantityAdjust (plus2)
-Step 12: Click on span checkoutProceedButton
-Step 13: Click on span space
-Step 14: Click on span checkoutProceedButton
-Step 15: Click on span checkoutButton2
-Step 16: Click on button backToCart
-Step 17: Click on button backToCart
-Step 18: Click on button store -> Navigate to page '/store'
-Step 19: Click on button addToCart (addToCart)
-Step 20: Click on span shoppingCartLabel -> Navigate to page '/checkout'
-Step 21: Click on div checkoutInfo
-Step 22: Click on span checkoutAction
-Step 23: Click on button store -> Navigate to page '/store'
-Step 24: Click on button addToCart (addToCart4)
-Step 25: Click on button addToCart (addToCart5)
-Step 26: Click on div productList -> Navigate to page ''
-Step 27: Take full page screenshot as checkpoint
+5,Checkout Process with Multiple Items in Store,"Login, add items to the cart, proceed through checkout options, and verify the checkout process is completed successfully.","Step 1: Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com
+Step 2: Login
+Step 3: Navigate to /
+Step 4: Click on button signIn
+Step 5: Click on item signIn -> Navigate to page '/login'
+Step 6: Click on button signInWithAzureAd2 -> Navigate to page '/'
+Step 7: Click on button store -> Navigate to page '/store'
+Step 8: Click on button addToCart (addToCart2)
+Step 9: Click on button checkout -> Navigate to page '/checkout'
+Step 10: Click on button checkoutOptions (continueShopping2)
+Step 11: Click on button checkoutOptions (proceedToCheckout)
+Step 12: Click on button checkoutOptions (proceedToCheckout)
+Step 13: Click on div checkoutSummary
+Step 14: Click on main orderSummary
+Step 15: Click on button nextTechHome -> Navigate to page '/'
+Step 16: Click on button store -> Navigate to page '/store'
+Step 17: Click on button addToCart (addToCart3)
+Step 18: Click on button cartActions (cart) -> Navigate to page '/checkout'
+Step 19: Click on button checkoutOptions (proceedToCheckout) -> Navigate to page ''
+Step 20: Take full page screenshot as checkpoint
 ",Low,NEW
-8,Create New Product in Admin Panel with Detailed Information,"Navigate to the admin panel, create a new product by filling in all required fields, and upload images. Verify the product creation and return to the home page.","Step 1: Navigate to /admin
-Step 2: Click on item products -> Navigate to page '/admin/products'
-Step 3: Click on button createNewProduct -> Navigate to page '/admin/products/new'
-Step 4: Click on label productName
-Step 5: Click on input productName
-Step 6: Enter input value in input productName
-Step 7: Click on input summary
-Step 8: Click on label summary
+8,Create and Verify New Product in Admin Panel,"Login to the admin panel, create a new product by filling in details, upload images, and verify the product is listed.","Step 1: Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com
+Step 2: Login
+Step 3: Navigate to /admin
+Step 4: Click on item products -> Navigate to page '/admin/products'
+Step 5: Click on button createNewProduct -> Navigate to page '/admin/products/new'
+Step 6: Click on label productName
+Step 7: Click on input productName
+Step 8: Enter input value in input productName
 Step 9: Click on input summary
-Step 10: Enter input value in input summary
-Step 11: Click on label description
-Step 12: Click on textarea description
-Step 13: Enter input value in textarea description
-Step 14: Click on input price
-Step 15: Enter input value in input price
-Step 16: Click on input brand
-Step 17: Click on div productBrands (acers)
-Step 18: Click on input type
-Step 19: Click on div productBrands (keyboards)
-Step 20: Click on div productImageLabel
-Step 21: Click on span uploadImage
-Step 22: Click on div pricingClassification
-Step 23: Click on span acers
-Step 24: Click on item brandsAndTypes -> Navigate to page '/admin/brands-types'
-Step 25: Click on div typesTab
-Step 26: Click on div brandsTab
-Step 27: Click on input brandName
-Step 28: Enter input value in input brandName
-Step 29: Click on button addBrand
-Step 30: Click on item dashboard -> Navigate to page '/admin'
-Step 31: Click on item products -> Navigate to page '/admin/products'
-Step 32: Click on button createNewProduct -> Navigate to page '/admin/products/new'
-Step 33: Click on span upload
-Step 34: Click on input productName
-Step 35: Click on label productName
-Step 36: Click on label productName
-Step 37: Click on input productName
-Step 38: Enter input value in input productName
-Step 39: Click on label summary
-Step 40: Click on input summary
-Step 41: Enter input value in input summary
-Step 42: Click on div productDescription
-Step 43: Click on label description
-Step 44: Click on label description
-Step 45: Click on textarea description
-Step 46: Enter input value in textarea description
-Step 47: Click on input price
-Step 48: Enter input value in input price
-Step 49: Click on input brand
-Step 50: Click on div productBrands (brandKeychron)
-Step 51: Click on input type
-Step 52: Click on div productBrands (keyboards)
-Step 53: Click on span uploadImage
-Step 54: Click on span eyeIcon
-Step 55: Click on button createProduct -> Navigate to page '/admin/products'
-Step 56: Click on link product3
-Step 57: Click on td productName
-Step 58: Click on td productName
-Step 59: Click on strong productName
-Step 60: Click on div productImageMask -> Navigate to page ''
-Step 61: Take full page screenshot as checkpoint
+Step 10: Click on label summary
+Step 11: Click on input summary
+Step 12: Enter input value in input summary
+Step 13: Click on label description
+Step 14: Click on textarea description
+Step 15: Enter input value in textarea description
+Step 16: Click on input price
+Step 17: Enter input value in input price
+Step 18: Click on input brand
+Step 19: Click on div productItems (acers)
+Step 20: Click on input type
+Step 21: Click on div productItems (keyboards)
+Step 22: Click on div productImageLabel
+Step 23: Click on span uploadImage
+Step 24: Click on div pricingClassification
+Step 25: Click on span acers
+Step 26: Click on item brandsAndTypes -> Navigate to page '/admin/brands-types'
+Step 27: Click on div typesTab
+Step 28: Click on div brandsTab
+Step 29: Click on input brandName
+Step 30: Enter input value in input brandName
+Step 31: Click on button addBrand
+Step 32: Click on item dashboard -> Navigate to page '/admin'
+Step 33: Click on item products -> Navigate to page '/admin/products'
+Step 34: Click on button createNewProduct -> Navigate to page '/admin/products/new'
+Step 35: Click on span upload
+Step 36: Click on input productName
+Step 37: Click on label productName
+Step 38: Click on label productName
+Step 39: Click on input productName
+Step 40: Enter input value in input productName
+Step 41: Click on label summary
+Step 42: Click on input summary
+Step 43: Enter input value in input summary
+Step 44: Click on div productDescription
+Step 45: Click on label description
+Step 46: Click on label description
+Step 47: Click on textarea description
+Step 48: Enter input value in textarea description
+Step 49: Click on input price
+Step 50: Enter input value in input price
+Step 51: Click on input brand
+Step 52: Click on div productItems (brandKeychron)
+Step 53: Click on input type
+Step 54: Click on div productItems (keyboards)
+Step 55: Click on span uploadImage
+Step 56: Click on span eyeIcon
+Step 57: Click on button createProduct -> Navigate to page '/admin/products'
+Step 58: Click on link product3
+Step 59: Click on td productName
+Step 60: Click on td productName
+Step 61: Click on strong productName
+Step 62: Click on div productImageMask -> Navigate to page ''
+Step 63: Take full page screenshot as checkpoint
 ",Trivial,NEW
-7,Search and Create New Product After Viewing Details,"Navigate to the store, sign in, search for products, view details, and create a new product with comprehensive information. Verify the home page after actions.","Step 1: Navigate to /
-Step 2: Click on button store -> Navigate to page '/store'
-Step 3: Click on button signIn
-Step 4: Click on item signIn -> Navigate to page '/login'
-Step 5: Click on button signInWithAzureAd -> Navigate to page '/'
-Step 6: Click on button store -> Navigate to page '/store'
-Step 7: Click on input search
-Step 8: Click on div brandAcer
-Step 9: Click on button viewDetails
-Step 10: Click on button viewDetails
-Step 11: Click on button backToStore
+7,Create New Product After Browsing Store and Admin Panel,"Login, browse products, create a new product in the admin panel, and verify the home page after creation.","Step 1: Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com
+Step 2: Login
+Step 3: Navigate to /
+Step 4: Click on button store -> Navigate to page '/store'
+Step 5: Click on button signIn
+Step 6: Click on item signIn2 -> Navigate to page '/login'
+Step 7: Click on button signInWithAzureAd -> Navigate to page '/'
+Step 8: Click on button store -> Navigate to page '/store'
+Step 9: Click on input search
+Step 10: Click on div brandAcer
+Step 11: Click on button viewDetails
 Step 12: Click on button viewDetails
 Step 13: Click on button backToStore
-Step 14: Click on item product2
-Step 15: Click on span default
-Step 16: Click on span default
-Step 17: Click on button home -> Navigate to page '/admin'
-Step 18: Click on button createNewProduct -> Navigate to page '/admin/products/new'
-Step 19: Click on input productName
-Step 20: Click on div productName
+Step 14: Click on button viewDetails
+Step 15: Click on button backToStore
+Step 16: Click on item product2
+Step 17: Click on span default
+Step 18: Click on span default
+Step 19: Click on button home -> Navigate to page '/admin'
+Step 20: Click on button createNewProduct -> Navigate to page '/admin/products/new'
 Step 21: Click on input productName
-Step 22: Enter input value in input productName
-Step 23: Click on input summary
-Step 24: Enter input value in input summary
-Step 25: Click on textarea description
-Step 26: Click on input summary
-Step 27: Enter input value in input summary
-Step 28: Click on textarea description
-Step 29: Enter input value in textarea description
-Step 30: Click on input summary
-Step 31: Click on input productName
-Step 32: Click on div productDescription
+Step 22: Click on div productName
+Step 23: Click on input productName
+Step 24: Enter input value in input productName
+Step 25: Click on input summary
+Step 26: Enter input value in input summary
+Step 27: Click on textarea description
+Step 28: Click on input summary
+Step 29: Enter input value in input summary
+Step 30: Click on textarea description
+Step 31: Enter input value in textarea description
+Step 32: Click on input summary
 Step 33: Click on input productName
-Step 34: Enter input value in input productName
-Step 35: Click on label summary
-Step 36: Click on input summary
-Step 37: Enter input value in input summary
-Step 38: Click on label description
-Step 39: Click on textarea description
-Step 40: Enter input value in textarea description
-Step 41: Click on input price
-Step 42: Enter input value in input price
-Step 43: Click on input brand
-Step 44: Click on div productBrands (productHp)
-Step 45: Click on input type
-Step 46: Click on div productBrands (keyboards)
-Step 47: Click on span uploadImage
-Step 48: Click on input price
-Step 49: Enter input value in input price
-Step 50: Click on span uploadImage
-Step 51: Click on span upload
+Step 34: Click on div productDescription
+Step 35: Click on input productName
+Step 36: Enter input value in input productName
+Step 37: Click on label summary
+Step 38: Click on input summary
+Step 39: Enter input value in input summary
+Step 40: Click on label description
+Step 41: Click on textarea description
+Step 42: Enter input value in textarea description
+Step 43: Click on input price
+Step 44: Enter input value in input price
+Step 45: Click on input brand
+Step 46: Click on div productItems (productHp)
+Step 47: Click on input type
+Step 48: Click on div productItems (keyboards)
+Step 49: Click on span uploadImage
+Step 50: Click on input price
+Step 51: Enter input value in input price
 Step 52: Click on span uploadImage
-Step 53: Click on div imageUpload
+Step 53: Click on span upload
 Step 54: Click on span uploadImage
-Step 55: Click on item brandsAndTypes -> Navigate to page '/admin/brands-types'
-Step 56: Click on item orders -> Navigate to page '/admin/orders'
-Step 57: Click on item products -> Navigate to page '/admin/products'
-Step 58: Click on item dashboard -> Navigate to page '/admin'
-Step 59: Click on item products -> Navigate to page ''
-Step 60: Take full page screenshot as checkpoint
+Step 55: Click on div imageUpload
+Step 56: Click on span uploadImage
+Step 57: Click on item brandsAndTypes -> Navigate to page '/admin/brands-types'
+Step 58: Click on item orders -> Navigate to page '/admin/orders'
+Step 59: Click on item products -> Navigate to page '/admin/products'
+Step 60: Click on item dashboard -> Navigate to page '/admin'
+Step 61: Click on item products -> Navigate to page ''
+Step 62: Take full page screenshot as checkpoint
+",Trivial,NEW
+9,Manage Shopping Cart and Checkout Process,"Login to the store, add multiple items to the cart, adjust quantities, and proceed through the checkout process. Verify navigation and actions throughout.","Step 1: Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com
+Step 2: Login
+Step 3: Navigate to /store
+Step 4: Click on button addToCart (addToCart)
+Step 5: Click on button addToCart (addToCart3)
+Step 6: Click on button addToCart (addToCart2)
+Step 7: Click on button addToCart (addToCart)
+Step 8: Click on button cartActions (cart2) -> Navigate to page '/checkout'
+Step 9: Click on button quantityAdjust (plus)
+Step 10: Click on span checkoutButton
+Step 11: Click on span increaseValue
+Step 12: Enter input value in input object
+Step 13: Click on button quantityAdjust (plus2)
+Step 14: Click on span checkoutProceedButton
+Step 15: Click on span space
+Step 16: Click on span checkoutProceedButton
+Step 17: Click on span checkoutButton2
+Step 18: Click on button backToCart
+Step 19: Click on button backToCart
+Step 20: Click on button store -> Navigate to page '/store'
+Step 21: Click on button addToCart (addToCart)
+Step 22: Click on span shoppingCartLabel -> Navigate to page '/checkout'
+Step 23: Click on div checkoutInfo
+Step 24: Click on span checkoutAction
+Step 25: Click on button store -> Navigate to page '/store'
+Step 26: Click on button addToCart (addToCart4)
+Step 27: Click on button addToCart (addToCart5)
+Step 28: Click on div productList -> Navigate to page ''
+Step 29: Take full page screenshot as checkpoint
 ",Trivial,NEW

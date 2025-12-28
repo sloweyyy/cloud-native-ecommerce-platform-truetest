@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>64c27ead-2098-4758-aaef-5ed7b7a29ca5</id>
+        </flow>
+    </customField>
+    <description>Login to the home page, navigate through various categories, and access the store. Verify that the store page is displayed correctly.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC6-Navigate and Sign In to Store Categories</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>83733029-3d4d-49d0-9f48-a95133591c41</testCaseGuid>
+</TestCaseEntity>

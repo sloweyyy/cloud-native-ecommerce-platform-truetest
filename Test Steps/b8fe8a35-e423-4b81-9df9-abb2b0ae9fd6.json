@@ -2,6 +2,16 @@
     "version": "3",
     "steps": [
         {
+            "name": "Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
             "name": "Navigate to /login",
             "sub_steps": [],
             "target_name": ""

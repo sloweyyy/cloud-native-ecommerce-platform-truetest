@@ -2,6 +2,16 @@
     "version": "3",
     "steps": [
         {
+            "name": "Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
             "name": "Navigate to /admin",
             "sub_steps": [],
             "target_name": ""
@@ -82,9 +92,9 @@
             "target_name": "input_brand"
         },
         {
-            "name": "Click on div productBrands (acers)",
+            "name": "Click on div productItems (acers)",
             "sub_steps": [],
-            "target_name": "div_productBrands"
+            "target_name": "div_productItems"
         },
         {
             "name": "Click on input type",
@@ -92,9 +102,9 @@
             "target_name": "input_type"
         },
         {
-            "name": "Click on div productBrands (keyboards)",
+            "name": "Click on div productItems (keyboards)",
             "sub_steps": [],
-            "target_name": "div_productBrands"
+            "target_name": "div_productItems"
         },
         {
             "name": "Click on div productImageLabel",
@@ -247,9 +257,9 @@
             "target_name": "input_brand"
         },
         {
-            "name": "Click on div productBrands (brandKeychron)",
+            "name": "Click on div productItems (brandKeychron)",
             "sub_steps": [],
-            "target_name": "div_productBrands"
+            "target_name": "div_productItems"
         },
         {
             "name": "Click on input type",
@@ -257,9 +267,9 @@
             "target_name": "input_type"
         },
         {
-            "name": "Click on div productBrands (keyboards)",
+            "name": "Click on div productItems (keyboards)",
             "sub_steps": [],
-            "target_name": "div_productBrands"
+            "target_name": "div_productItems"
         },
         {
             "name": "Click on span uploadImage",

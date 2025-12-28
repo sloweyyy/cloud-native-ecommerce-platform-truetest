@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>9138ba87-16c3-4775-8173-caa2402c4b96</id>
+        </flow>
+    </customField>
+    <description>Login, add items to the cart, proceed through checkout options, and verify the checkout process is completed successfully.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC5-Checkout Process with Multiple Items in Store</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>3092248e-99bf-4fa7-8318-c32b6586b7e7</testCaseGuid>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Step 8: Click on button addToCart (addToCart2) - (Dynamic locator variable)</description>
+        <id>1dbf2ef4-f489-40c8-8a63-3fca975f2adf</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Step 17: Click on button addToCart (addToCart3) - (Dynamic locator variable)</description>
+        <id>0412900b-ded3-4334-8b35-8c054d9f9586</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Shopping cart with 1 items'</defaultValue>
+        <description>Step 18: Click on button cartActions (cart) -&gt; Navigate to page '/checkout' - (Dynamic locator variable)</description>
+        <id>8ef615e6-84a8-44bb-a1db-e9494c7442b6</id>
+        <masked>false</masked>
+        <name>button_cartActions_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'Continue Shopping'</defaultValue>
+        <description>Step 10: Click on button checkoutOptions (continueShopping2) - (Dynamic locator variable)</description>
+        <id>48339c14-189f-4d29-885e-64101c5311f2</id>
+        <masked>false</masked>
+        <name>button_checkoutOptions_buttonInternalHasText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Proceed to Checkout'</defaultValue>
+        <description>Step 11: Click on button checkoutOptions (proceedToCheckout) - (Dynamic locator variable)</description>
+        <id>291cbfbd-7311-4559-a4e0-fb78c2d5e536</id>
+        <masked>false</masked>
+        <name>button_checkoutOptions_buttonInternalHasText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Proceed to Checkout'</defaultValue>
+        <description>Step 12: Click on button checkoutOptions (proceedToCheckout) - (Dynamic locator variable)</description>
+        <id>8d819884-a952-431b-a115-ccf000d64f74</id>
+        <masked>false</masked>
+        <name>button_checkoutOptions_buttonInternalHasText_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Proceed to Checkout'</defaultValue>
+        <description>Step 19: Click on button checkoutOptions (proceedToCheckout) -&gt; Navigate to page '' - (Dynamic locator variable)</description>
+        <id>596a271f-6469-4c2c-bc83-cedaff7bc3c0</id>
+        <masked>false</masked>
+        <name>button_checkoutOptions_buttonInternalHasText_3</name>
+    </variable>
+</TestCaseEntity>
