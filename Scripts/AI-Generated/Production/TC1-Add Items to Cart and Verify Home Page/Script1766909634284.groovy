@@ -27,40 +27,6 @@ TrueTestScripts.login()
 
 TrueTestScripts.navigate("/")
 
-"Step 4: Click on button signIn"
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Production/Page_home/button_signIn'))
-
-// WebUI.takeScreenshot(reportLocation + '/TC1/Step 4-Click on button signIn.png')
-
-"Step 5: Click on button store -> Navigate to page '/store'"
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Production/Page_home/button_store'))
-
-// WebUI.takeScreenshot(reportLocation + '/TC1/Step 5-Click on button store - Navigate to page store.png')
-
-"Step 6: Click on button signIn"
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Production/Page_store/button_signIn'))
-
-// WebUI.takeScreenshot(reportLocation + '/TC1/Step 6-Click on button signIn.png')
-
-"Step 7: Click on item signIn2 -> Navigate to page '/login'"
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Production/Page_store/item_signIn2'))
-
-// WebUI.takeScreenshot(reportLocation + '/TC1/Step 7-Click on item signIn2 - Navigate to page login.png')
-
-"Step 8: Click on button signInWithAzureAd"
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Production/Page_login/button_signInWithAzureAd'))
-
-// WebUI.takeScreenshot(reportLocation + '/TC1/Step 8-Click on button signInWithAzureAd.png')
-
-"Step 9: Click on button signInWithAzureAd -> Navigate to page '/'"
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Production/Page_login/button_signInWithAzureAd'))
-
 // WebUI.takeScreenshot(reportLocation + '/TC1/Step 9-Click on button signInWithAzureAd - Navigate to page .png')
 
 "Step 10: Click on button cart -> Navigate to page '/checkout'"

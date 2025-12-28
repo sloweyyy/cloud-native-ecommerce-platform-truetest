@@ -1,0 +1,708 @@
+2025-12-28 16:07:48.048 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio Enterprise v10.4.2.app/Contents/Eclipse/configuration/org.eclipse.osgi/132/0/.cp/resources/logback/logback-execution.xml
+2025-12-28 16:07:48.050 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized
+2025-12-28 16:07:49.104 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/RegressionTest
+2025-12-28 16:07:49.150 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Phuc Slowey Truong
+2025-12-28 16:07:49.150 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TrueTestGen4Project
+2025-12-28 16:07:49.151 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = phuc.truong - ip-192-168-0-252.ap-southeast-1.compute.internal
+2025-12-28 16:07:49.151 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-12-28 16:07:49.151 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.252
+2025-12-28 16:07:49.152 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2025-12-28 16:07:49.169 INFO  com.kms.katalon.core.util.KeywordUtil    - Microsoft Teams Incoming Webhook is empty.
+2025-12-28 16:07:49.318 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:07:49.318 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Production/TC1-Add Items to Cart and Verify Home Page
+2025-12-28 16:07:49.347 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) button_addToCart_nth_1 = 0
+2025-12-28 16:07:49.357 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) span_productCategories_divNthChild_1 = 7
+2025-12-28 16:07:49.524 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-28 16:07:49.574 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 28, 2025 4:07:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 28, 2025 4:07:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-28 16:07:51.460 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1c03b2e089fe3b18a31a5291d8d235a9
+2025-12-28 16:07:51.462 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2025-12-28 16:07:51.463 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-12-28 16:07:51.463 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-28 16:07:51.469 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-28 16:07:51.898 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Viewport size mismatch (2,056x912). Trying to set it again.
+2025-12-28 16:07:52.924 WARN  c.k.k.c.w.k.b.SetViewPortSizeKeyword     - Viewport size mismatch (2056x2056).
+2025-12-28 16:07:57.124 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:07:57.124 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/AI-Generated/Production/TC0-Sign in
+2025-12-28 16:07:57.179 DEBUG testcase.TC0-Sign in                     - 1: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/span_Sign In"))
+2025-12-28 16:07:57.579 DEBUG testcase.TC0-Sign in                     - 2: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/strong_Sign In"))
+2025-12-28 16:07:58.315 DEBUG testcase.TC0-Sign in                     - 3: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/span_Sign In with Azure AD"))
+2025-12-28 16:07:59.037 DEBUG testcase.TC0-Sign in                     - 4: setText(findTestObject("Object Repository/Page_Sign up or sign in/input_Email Address_email"), "22521145@gm.uit.edu.vn")
+2025-12-28 16:08:01.349 DEBUG testcase.TC0-Sign in                     - 5: setEncryptedText(findTestObject("Object Repository/Page_Sign up or sign in/input_Password_password"), "w3/nmlEMWddMYWP348Kf3Q==")
+2025-12-28 16:08:01.889 DEBUG testcase.TC0-Sign in                     - 6: click(findTestObject("Object Repository/Page_Sign up or sign in/button_Sign in"))
+2025-12-28 16:08:02.385 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/AI-Generated/Production/TC0-Sign in
+2025-12-28 16:08:02.385 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:08:15.963 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/AI-Generated/Production/Page_home/button_cart' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Production/Page_home/button_cart'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC1-Add Items to Cart and Verify Home Page.run(TC1-Add Items to Cart and Verify Home Page:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766912866724.run(TempTestSuite1766912866724.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Production/Page_home/button_cart' located by 'internal:label=\"Shopping cart with 1 items\"s' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at Script1766909634284.run(Script1766909634284.groovy:34)
+	... 15 more
+)
+2025-12-28 16:08:15.966 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/AI-Generated/Production/TC1-Add Items to Cart and Verify Home Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Production/Page_home/button_cart'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC1-Add Items to Cart and Verify Home Page.run(TC1-Add Items to Cart and Verify Home Page:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766912866724.run(TempTestSuite1766912866724.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Production/Page_home/button_cart' located by 'internal:label=\"Shopping cart with 1 items\"s' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2025-12-28 16:08:16.093 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Production/TC1-Add Items to Cart and Verify Home Page
+2025-12-28 16:08:16.098 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:08:16.098 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Production/TC1-Add Items to Cart and Verify Home Page
+2025-12-28 16:08:16.106 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) button_addToCart_nth_1 = 0
+2025-12-28 16:08:16.106 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) span_productCategories_divNthChild_1 = 7
+2025-12-28 16:08:16.111 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-28 16:08:16.112 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 28, 2025 4:08:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 28, 2025 4:08:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-28 16:08:17.069 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8fa598c3e41ee223f5c4aec67ed32cbd
+2025-12-28 16:08:17.069 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2025-12-28 16:08:17.070 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-12-28 16:08:17.070 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-28 16:08:17.070 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-28 16:08:17.438 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Viewport size mismatch (2,056x912). Trying to set it again.
+2025-12-28 16:08:18.440 WARN  c.k.k.c.w.k.b.SetViewPortSizeKeyword     - Viewport size mismatch (2056x2056).
+2025-12-28 16:08:22.393 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:08:22.394 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/AI-Generated/Production/TC0-Sign in
+2025-12-28 16:08:22.420 DEBUG testcase.TC0-Sign in                     - 1: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/span_Sign In"))
+2025-12-28 16:08:22.766 DEBUG testcase.TC0-Sign in                     - 2: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/strong_Sign In"))
+2025-12-28 16:08:23.494 DEBUG testcase.TC0-Sign in                     - 3: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/span_Sign In with Azure AD"))
+2025-12-28 16:08:23.988 DEBUG testcase.TC0-Sign in                     - 4: setText(findTestObject("Object Repository/Page_Sign up or sign in/input_Email Address_email"), "22521145@gm.uit.edu.vn")
+2025-12-28 16:08:26.505 DEBUG testcase.TC0-Sign in                     - 5: setEncryptedText(findTestObject("Object Repository/Page_Sign up or sign in/input_Password_password"), "w3/nmlEMWddMYWP348Kf3Q==")
+2025-12-28 16:08:26.993 DEBUG testcase.TC0-Sign in                     - 6: click(findTestObject("Object Repository/Page_Sign up or sign in/button_Sign in"))
+2025-12-28 16:08:27.501 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/AI-Generated/Production/TC0-Sign in
+2025-12-28 16:08:27.501 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:08:41.058 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/AI-Generated/Production/Page_home/button_cart' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Production/Page_home/button_cart'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC1-Add Items to Cart and Verify Home Page.run(TC1-Add Items to Cart and Verify Home Page:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766912866724.run(TempTestSuite1766912866724.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Production/Page_home/button_cart' located by 'internal:label=\"Shopping cart with 1 items\"s' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at Script1766909634284.run(Script1766909634284.groovy:34)
+	... 16 more
+)
+2025-12-28 16:08:41.060 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/AI-Generated/Production/TC1-Add Items to Cart and Verify Home Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Production/Page_home/button_cart'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC1-Add Items to Cart and Verify Home Page.run(TC1-Add Items to Cart and Verify Home Page:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766912866724.run(TempTestSuite1766912866724.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Production/Page_home/button_cart' located by 'internal:label=\"Shopping cart with 1 items\"s' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+2025-12-28 16:08:41.179 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Production/TC1-Add Items to Cart and Verify Home Page
+2025-12-28 16:08:41.180 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:08:41.180 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Production/TC1-Add Items to Cart and Verify Home Page
+2025-12-28 16:08:41.189 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) button_addToCart_nth_1 = 0
+2025-12-28 16:08:41.190 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) span_productCategories_divNthChild_1 = 7
+2025-12-28 16:08:41.194 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-28 16:08:41.195 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 28, 2025 4:08:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 28, 2025 4:08:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-28 16:08:42.156 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 00563b1442388a75ad80760996cf8b3e
+2025-12-28 16:08:42.156 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2025-12-28 16:08:42.156 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-12-28 16:08:42.157 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-28 16:08:42.157 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-28 16:08:42.514 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Viewport size mismatch (2,056x912). Trying to set it again.
+2025-12-28 16:08:43.516 WARN  c.k.k.c.w.k.b.SetViewPortSizeKeyword     - Viewport size mismatch (2056x2056).
+2025-12-28 16:08:47.472 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:08:47.472 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/AI-Generated/Production/TC0-Sign in
+2025-12-28 16:08:47.486 DEBUG testcase.TC0-Sign in                     - 1: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/span_Sign In"))
+2025-12-28 16:08:47.848 DEBUG testcase.TC0-Sign in                     - 2: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/strong_Sign In"))
+2025-12-28 16:08:48.570 DEBUG testcase.TC0-Sign in                     - 3: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/span_Sign In with Azure AD"))
+2025-12-28 16:08:49.166 DEBUG testcase.TC0-Sign in                     - 4: setText(findTestObject("Object Repository/Page_Sign up or sign in/input_Email Address_email"), "22521145@gm.uit.edu.vn")
+2025-12-28 16:08:51.503 DEBUG testcase.TC0-Sign in                     - 5: setEncryptedText(findTestObject("Object Repository/Page_Sign up or sign in/input_Password_password"), "w3/nmlEMWddMYWP348Kf3Q==")
+2025-12-28 16:08:51.997 DEBUG testcase.TC0-Sign in                     - 6: click(findTestObject("Object Repository/Page_Sign up or sign in/button_Sign in"))
+2025-12-28 16:08:52.471 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/AI-Generated/Production/TC0-Sign in
+2025-12-28 16:08:52.471 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:09:06.105 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/AI-Generated/Production/Page_home/button_cart' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Production/Page_home/button_cart'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC1-Add Items to Cart and Verify Home Page.run(TC1-Add Items to Cart and Verify Home Page:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766912866724.run(TempTestSuite1766912866724.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Production/Page_home/button_cart' located by 'internal:label=\"Shopping cart with 1 items\"s' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at Script1766909634284.run(Script1766909634284.groovy:34)
+	... 17 more
+)
+2025-12-28 16:09:06.112 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/AI-Generated/Production/TC1-Add Items to Cart and Verify Home Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Production/Page_home/button_cart'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC1-Add Items to Cart and Verify Home Page.run(TC1-Add Items to Cart and Verify Home Page:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766912866724.run(TempTestSuite1766912866724.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Production/Page_home/button_cart' located by 'internal:label=\"Shopping cart with 1 items\"s' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+
+2025-12-28 16:09:06.372 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Production/TC1-Add Items to Cart and Verify Home Page
+2025-12-28 16:09:06.377 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:09:06.377 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Production/TC1-Add Items to Cart and Verify Home Page
+2025-12-28 16:09:06.390 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) button_addToCart_nth_1 = 0
+2025-12-28 16:09:06.390 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) span_productCategories_divNthChild_1 = 7
+2025-12-28 16:09:06.394 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-28 16:09:06.395 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 28, 2025 4:09:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 28, 2025 4:09:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-28 16:09:07.382 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f52de0a6a26210d8aa8595102a7c1939
+2025-12-28 16:09:07.383 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2025-12-28 16:09:07.383 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-12-28 16:09:07.383 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-28 16:09:07.383 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-28 16:09:07.736 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Viewport size mismatch (2,056x912). Trying to set it again.
+2025-12-28 16:09:08.724 WARN  c.k.k.c.w.k.b.SetViewPortSizeKeyword     - Viewport size mismatch (2056x2056).
+2025-12-28 16:09:12.790 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:09:12.790 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/AI-Generated/Production/TC0-Sign in
+2025-12-28 16:09:12.803 DEBUG testcase.TC0-Sign in                     - 1: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/span_Sign In"))
+2025-12-28 16:09:13.112 DEBUG testcase.TC0-Sign in                     - 2: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/strong_Sign In"))
+2025-12-28 16:09:13.918 DEBUG testcase.TC0-Sign in                     - 3: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/span_Sign In with Azure AD"))
+2025-12-28 16:09:14.615 DEBUG testcase.TC0-Sign in                     - 4: setText(findTestObject("Object Repository/Page_Sign up or sign in/input_Email Address_email"), "22521145@gm.uit.edu.vn")
+2025-12-28 16:09:16.966 DEBUG testcase.TC0-Sign in                     - 5: setEncryptedText(findTestObject("Object Repository/Page_Sign up or sign in/input_Password_password"), "w3/nmlEMWddMYWP348Kf3Q==")
+2025-12-28 16:09:17.452 DEBUG testcase.TC0-Sign in                     - 6: click(findTestObject("Object Repository/Page_Sign up or sign in/button_Sign in"))
+2025-12-28 16:09:17.957 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/AI-Generated/Production/TC0-Sign in
+2025-12-28 16:09:17.958 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:09:31.467 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/AI-Generated/Production/Page_home/button_cart' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Production/Page_home/button_cart'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC1-Add Items to Cart and Verify Home Page.run(TC1-Add Items to Cart and Verify Home Page:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766912866724.run(TempTestSuite1766912866724.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Production/Page_home/button_cart' located by 'internal:label=\"Shopping cart with 1 items\"s' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at Script1766909634284.run(Script1766909634284.groovy:34)
+	... 18 more
+)
+2025-12-28 16:09:31.469 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/AI-Generated/Production/TC1-Add Items to Cart and Verify Home Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Production/Page_home/button_cart'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC1-Add Items to Cart and Verify Home Page.run(TC1-Add Items to Cart and Verify Home Page:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766912866724.run(TempTestSuite1766912866724.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Production/Page_home/button_cart' located by 'internal:label=\"Shopping cart with 1 items\"s' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 24 more
+
+2025-12-28 16:09:31.579 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Production/TC1-Add Items to Cart and Verify Home Page
+2025-12-28 16:09:31.584 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:09:31.584 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Production/TC10-Login and Navigate to Home Page with Azure AD
+2025-12-28 16:09:31.615 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-28 16:09:31.616 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 28, 2025 4:09:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 28, 2025 4:09:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-28 16:09:32.612 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a6cc26834a9793514d8fbad07f981226
+2025-12-28 16:09:32.612 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2025-12-28 16:09:32.612 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-12-28 16:09:32.612 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-28 16:09:32.612 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-28 16:09:36.818 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:09:36.819 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/AI-Generated/Production/TC0-Sign in
+2025-12-28 16:09:36.830 DEBUG testcase.TC0-Sign in                     - 1: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/span_Sign In"))
+2025-12-28 16:09:37.142 DEBUG testcase.TC0-Sign in                     - 2: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/strong_Sign In"))
+2025-12-28 16:09:39.503 DEBUG testcase.TC0-Sign in                     - 3: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/span_Sign In with Azure AD"))
+2025-12-28 16:09:40.153 DEBUG testcase.TC0-Sign in                     - 4: setText(findTestObject("Object Repository/Page_Sign up or sign in/input_Email Address_email"), "22521145@gm.uit.edu.vn")
+2025-12-28 16:09:42.972 DEBUG testcase.TC0-Sign in                     - 5: setEncryptedText(findTestObject("Object Repository/Page_Sign up or sign in/input_Password_password"), "w3/nmlEMWddMYWP348Kf3Q==")
+2025-12-28 16:09:43.760 DEBUG testcase.TC0-Sign in                     - 6: click(findTestObject("Object Repository/Page_Sign up or sign in/button_Sign in"))
+2025-12-28 16:09:44.530 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/AI-Generated/Production/TC0-Sign in
+2025-12-28 16:09:44.530 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:09:51.854 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-12-28 16:09:52.543 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Production/TC10-Login and Navigate to Home Page with Azure AD
+2025-12-28 16:09:52.547 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:09:52.548 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Production/TC11-Login and Verify Page Login with Azure AD
+2025-12-28 16:09:52.606 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-28 16:09:52.607 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 28, 2025 4:09:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 28, 2025 4:09:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-28 16:09:53.655 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d8ef4e2396edd8d032edb8c0ef6e375d
+2025-12-28 16:09:53.656 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2025-12-28 16:09:53.656 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-12-28 16:09:53.656 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-28 16:09:53.656 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-28 16:09:58.277 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:09:58.277 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/AI-Generated/Production/TC0-Sign in
+2025-12-28 16:09:58.285 DEBUG testcase.TC0-Sign in                     - 1: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/span_Sign In"))
+2025-12-28 16:09:58.618 DEBUG testcase.TC0-Sign in                     - 2: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/strong_Sign In"))
+2025-12-28 16:09:59.338 DEBUG testcase.TC0-Sign in                     - 3: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/span_Sign In with Azure AD"))
+2025-12-28 16:09:59.820 DEBUG testcase.TC0-Sign in                     - 4: setText(findTestObject("Object Repository/Page_Sign up or sign in/input_Email Address_email"), "22521145@gm.uit.edu.vn")
+2025-12-28 16:10:02.195 DEBUG testcase.TC0-Sign in                     - 5: setEncryptedText(findTestObject("Object Repository/Page_Sign up or sign in/input_Password_password"), "w3/nmlEMWddMYWP348Kf3Q==")
+2025-12-28 16:10:02.691 DEBUG testcase.TC0-Sign in                     - 6: click(findTestObject("Object Repository/Page_Sign up or sign in/button_Sign in"))
+2025-12-28 16:10:03.168 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/AI-Generated/Production/TC0-Sign in
+2025-12-28 16:10:03.168 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:10:07.475 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-12-28 16:10:07.660 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Production/TC11-Login and Verify Page Login with Azure AD
+2025-12-28 16:10:07.661 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:10:07.661 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Production/TC2-Navigate and Verify Checkout Page from Store
+2025-12-28 16:10:07.693 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-28 16:10:07.694 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 28, 2025 4:10:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 28, 2025 4:10:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-28 16:10:08.598 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 600fa2129e03b411e17bfe43405357f0
+2025-12-28 16:10:08.599 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2025-12-28 16:10:08.599 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-12-28 16:10:08.599 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-28 16:10:08.599 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-28 16:10:08.960 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Viewport size mismatch (2,056x912). Trying to set it again.
+2025-12-28 16:10:09.959 WARN  c.k.k.c.w.k.b.SetViewPortSizeKeyword     - Viewport size mismatch (2056x2056).
+2025-12-28 16:10:14.154 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:10:14.155 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/AI-Generated/Production/TC0-Sign in
+2025-12-28 16:10:14.164 DEBUG testcase.TC0-Sign in                     - 1: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/span_Sign In"))
+2025-12-28 16:10:14.480 DEBUG testcase.TC0-Sign in                     - 2: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/strong_Sign In"))
+2025-12-28 16:10:15.284 DEBUG testcase.TC0-Sign in                     - 3: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/span_Sign In with Azure AD"))
+2025-12-28 16:10:15.768 DEBUG testcase.TC0-Sign in                     - 4: setText(findTestObject("Object Repository/Page_Sign up or sign in/input_Email Address_email"), "22521145@gm.uit.edu.vn")
+2025-12-28 16:10:18.074 DEBUG testcase.TC0-Sign in                     - 5: setEncryptedText(findTestObject("Object Repository/Page_Sign up or sign in/input_Password_password"), "w3/nmlEMWddMYWP348Kf3Q==")
+2025-12-28 16:10:18.610 DEBUG testcase.TC0-Sign in                     - 6: click(findTestObject("Object Repository/Page_Sign up or sign in/button_Sign in"))
+2025-12-28 16:10:19.096 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/AI-Generated/Production/TC0-Sign in
+2025-12-28 16:10:19.096 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:10:32.918 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/AI-Generated/Production/Page_home/button_checkout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Production/Page_home/button_checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC2-Navigate and Verify Checkout Page from Store.run(TC2-Navigate and Verify Checkout Page from Store:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766912866724.run(TempTestSuite1766912866724.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Production/Page_home/button_checkout' located by 'button >> internal:has-text=/^Checkout$/' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at Script1766909633914.run(Script1766909633914.groovy:32)
+	... 15 more
+)
+2025-12-28 16:10:32.922 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/AI-Generated/Production/TC2-Navigate and Verify Checkout Page from Store FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AI-Generated/Production/Page_home/button_checkout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:747)
+	at TC2-Navigate and Verify Checkout Page from Store.run(TC2-Navigate and Verify Checkout Page from Store:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766912866724.run(TempTestSuite1766912866724.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AI-Generated/Production/Page_home/button_checkout' located by 'button >> internal:has-text=/^Checkout$/' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:55)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy51.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2025-12-28 16:10:33.048 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AI-Generated/Production/TC2-Navigate and Verify Checkout Page from Store
+2025-12-28 16:10:33.050 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:10:33.050 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AI-Generated/Production/TC2-Navigate and Verify Checkout Page from Store
+2025-12-28 16:10:33.058 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-28 16:10:33.058 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 28, 2025 4:10:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 28, 2025 4:10:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-28 16:10:34.033 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d7de02b4dd51561beeba7e449956cd5c
+2025-12-28 16:10:34.034 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2025-12-28 16:10:34.034 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-12-28 16:10:34.034 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-28 16:10:34.034 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-28 16:10:34.386 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Viewport size mismatch (2,056x912). Trying to set it again.
+2025-12-28 16:10:35.377 WARN  c.k.k.c.w.k.b.SetViewPortSizeKeyword     - Viewport size mismatch (2056x2056).
+2025-12-28 16:10:39.855 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-28 16:10:39.855 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/AI-Generated/Production/TC0-Sign in
+2025-12-28 16:10:39.864 DEBUG testcase.TC0-Sign in                     - 1: click(findTestObject("Object Repository/Page_NextTech - E-Commerce Platform/span_Sign In"))
