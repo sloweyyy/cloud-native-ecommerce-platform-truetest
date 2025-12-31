@@ -1,0 +1,105 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Navigate to /",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Click on button home -> Navigate to page '/'",
+            "sub_steps": [],
+            "target_name": "button_home"
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Click on div productPrice",
+            "sub_steps": [],
+            "target_name": "div_productPrice"
+        },
+        {
+            "name": "Click on div viewDetails",
+            "sub_steps": [],
+            "target_name": "div_viewDetails"
+        },
+        {
+            "name": "Click on button viewDetails",
+            "sub_steps": [],
+            "target_name": "button_viewDetails"
+        },
+        {
+            "name": "Click on span outOfStock",
+            "sub_steps": [],
+            "target_name": "span_outOfStock"
+        },
+        {
+            "name": "Click on div productDescription",
+            "sub_steps": [],
+            "target_name": "div_productDescription"
+        },
+        {
+            "name": "Click on div quantityActions",
+            "sub_steps": [],
+            "target_name": "div_quantityActions"
+        },
+        {
+            "name": "Click on div quantitySelector",
+            "sub_steps": [],
+            "target_name": "div_quantitySelector"
+        },
+        {
+            "name": "Click on button viewDetails",
+            "sub_steps": [],
+            "target_name": "button_viewDetails"
+        },
+        {
+            "name": "Click on span outOfStock",
+            "sub_steps": [],
+            "target_name": "span_outOfStock"
+        },
+        {
+            "name": "Click on span outOfStock",
+            "sub_steps": [],
+            "target_name": "span_outOfStock"
+        },
+        {
+            "name": "Click on span outOfStock",
+            "sub_steps": [],
+            "target_name": "span_outOfStock"
+        },
+        {
+            "name": "Click on div productDetails",
+            "sub_steps": [],
+            "target_name": "div_productDetails"
+        },
+        {
+            "name": "Click on div productDetails -> Navigate to page '/'",
+            "sub_steps": [],
+            "target_name": "div_productDetails"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

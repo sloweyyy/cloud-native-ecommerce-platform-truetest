@@ -27,14 +27,14 @@
             "target_name": "div_categories"
         },
         {
-            "name": "Click on button userMenu",
+            "name": "Click on button userMenu3",
             "sub_steps": [],
-            "target_name": "button_userMenu"
+            "target_name": "button_userMenu3"
         },
         {
-            "name": "Click on button userMenu",
+            "name": "Click on button userMenu3",
             "sub_steps": [],
-            "target_name": "button_userMenu"
+            "target_name": "button_userMenu3"
         },
         {
             "name": "Click on button store -> Navigate to page '/store'",

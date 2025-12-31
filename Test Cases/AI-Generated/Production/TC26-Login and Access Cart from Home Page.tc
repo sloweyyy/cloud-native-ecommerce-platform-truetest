@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>455ddd97-4cc1-4ba8-8270-052c9bb210d7</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, log in, access the user menu, sign in with Azure AD, and click to access the cart before verifying the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC26-Login and Access Cart from Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>6de266d0-7b18-4911-8f84-255b644fce3f</testCaseGuid>
+</TestCaseEntity>

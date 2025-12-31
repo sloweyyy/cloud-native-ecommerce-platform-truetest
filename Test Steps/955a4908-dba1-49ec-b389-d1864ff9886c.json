@@ -1,0 +1,175 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Navigate to /login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button signInWithAzureAd2 -> Navigate to page '/admin'",
+            "sub_steps": [],
+            "target_name": "button_signInWithAzureAd2"
+        },
+        {
+            "name": "Click on button manageProducts -> Navigate to page '/admin/products'",
+            "sub_steps": [],
+            "target_name": "button_manageProducts"
+        },
+        {
+            "name": "Click on link productLinks (product4)",
+            "sub_steps": [],
+            "target_name": "link_productLinks"
+        },
+        {
+            "name": "Click on span object -> Navigate to page '/admin/products/*/edit'",
+            "sub_steps": [],
+            "target_name": "span_object"
+        },
+        {
+            "name": "Click on input price",
+            "sub_steps": [],
+            "target_name": "input_price"
+        },
+        {
+            "name": "Click on span msi",
+            "sub_steps": [],
+            "target_name": "span_msi"
+        },
+        {
+            "name": "Click on div acers",
+            "sub_steps": [],
+            "target_name": "div_acers"
+        },
+        {
+            "name": "Click on button updateProduct -> Navigate to page '/admin/products'",
+            "sub_steps": [],
+            "target_name": "button_updateProduct"
+        },
+        {
+            "name": "Click on item dashboard -> Navigate to page '/admin'",
+            "sub_steps": [],
+            "target_name": "item_dashboard"
+        },
+        {
+            "name": "Click on span phoneWirelessMouse -> Navigate to page '/admin/activities'",
+            "sub_steps": [],
+            "target_name": "span_phoneWirelessMouse"
+        },
+        {
+            "name": "Click on item dashboard -> Navigate to page '/admin'",
+            "sub_steps": [],
+            "target_name": "item_dashboard"
+        },
+        {
+            "name": "Click on div phoneWirelessMouse -> Navigate to page '/admin/activities'",
+            "sub_steps": [],
+            "target_name": "div_phoneWirelessMouse"
+        },
+        {
+            "name": "Click on item dashboard -> Navigate to page '/admin'",
+            "sub_steps": [],
+            "target_name": "item_dashboard"
+        },
+        {
+            "name": "Click on div productUpdated -> Navigate to page '/admin/activities'",
+            "sub_steps": [],
+            "target_name": "div_productUpdated"
+        },
+        {
+            "name": "Click on input checkbox",
+            "sub_steps": [],
+            "target_name": "input_checkbox"
+        },
+        {
+            "name": "Click on input checkbox",
+            "sub_steps": [],
+            "target_name": "input_checkbox"
+        },
+        {
+            "name": "Click on button export",
+            "sub_steps": [],
+            "target_name": "button_export"
+        },
+        {
+            "name": "Click on span adminLabels (codeLabel)",
+            "sub_steps": [],
+            "target_name": "span_adminLabels"
+        },
+        {
+            "name": "Click on label excel",
+            "sub_steps": [],
+            "target_name": "label_excel"
+        },
+        {
+            "name": "Click on span adminLabels (codeLabel)",
+            "sub_steps": [],
+            "target_name": "span_adminLabels"
+        },
+        {
+            "name": "Click on label csv",
+            "sub_steps": [],
+            "target_name": "label_csv"
+        },
+        {
+            "name": "Click on input activitiesFile",
+            "sub_steps": [],
+            "target_name": "input_activitiesFile"
+        },
+        {
+            "name": "Click on div exportOptions",
+            "sub_steps": [],
+            "target_name": "div_exportOptions"
+        },
+        {
+            "name": "Click on span adminLabels (fileExcel)",
+            "sub_steps": [],
+            "target_name": "span_adminLabels"
+        },
+        {
+            "name": "Click on label csv",
+            "sub_steps": [],
+            "target_name": "label_csv"
+        },
+        {
+            "name": "Click on label json",
+            "sub_steps": [],
+            "target_name": "label_json"
+        },
+        {
+            "name": "Click on span close",
+            "sub_steps": [],
+            "target_name": "span_close"
+        },
+        {
+            "name": "Click on button adminActions (statistics)",
+            "sub_steps": [],
+            "target_name": "button_adminActions"
+        },
+        {
+            "name": "Click on button adminActions (tableView)",
+            "sub_steps": [],
+            "target_name": "button_adminActions"
+        },
+        {
+            "name": "Click on item dashboard -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "item_dashboard"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

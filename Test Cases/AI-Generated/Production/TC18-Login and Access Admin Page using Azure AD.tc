@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>95cd391d-b2f4-4fe7-b66b-bac3ee64a08f</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, log in, access the user menu, and sign in with Azure AD to verify access to the admin page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC18-Login and Access Admin Page using Azure AD</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>a4ab19b8-2002-4514-803c-caa5e36b2ca1</testCaseGuid>
+</TestCaseEntity>

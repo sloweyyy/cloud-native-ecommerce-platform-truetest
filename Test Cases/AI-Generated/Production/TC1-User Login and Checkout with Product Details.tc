@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>a77accc3-1489-4acd-9331-5debbcbb1ddc</id>
+        </flow>
+    </customField>
+    <description>Log in to the store, add items to the cart, view product details, and proceed to checkout while verifying navigation.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC1-User Login and Checkout with Product Details</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>c644fd77-6272-455a-8645-ad1610bfe9a3</testCaseGuid>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Step 13: Click on button addToCart (addToCart5) - (Dynamic locator variable)</description>
+        <id>b0ef325b-5b9f-4855-b658-4ac41ba576e3</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'7'</defaultValue>
+        <description>Step 17: Click on span productTypes (mice) -&gt; Navigate to page '' - (Dynamic locator variable)</description>
+        <id>12311491-6a42-4c45-aa43-32e8e2620e7c</id>
+        <masked>false</masked>
+        <name>span_productTypes_divNthChild_1</name>
+    </variable>
+</TestCaseEntity>

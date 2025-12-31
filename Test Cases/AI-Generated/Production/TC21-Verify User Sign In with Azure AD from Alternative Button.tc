@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>8dc7732c-5efb-4a1c-96e1-2920c36854c6</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, log in, and use an alternative sign-in button with Azure AD. Confirm that the home page is displayed.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC21-Verify User Sign In with Azure AD from Alternative Button</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>0a3ece89-3d87-48f1-9404-eca2cb17ffd5</testCaseGuid>
+</TestCaseEntity>

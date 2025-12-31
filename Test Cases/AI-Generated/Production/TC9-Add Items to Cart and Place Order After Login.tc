@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>98970222-e778-44d3-9fc9-be1c8aad9a23</id>
+        </flow>
+    </customField>
+    <description>Log in to the store, add items to the cart, proceed to checkout, and place an order while verifying navigation.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC9-Add Items to Cart and Place Order After Login</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>48fb2740-2bf7-4b2a-bcf5-0b44a450dc01</testCaseGuid>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Step 5: Click on button addToCart (addToCart6) - (Dynamic locator variable)</description>
+        <id>90dce564-20f1-4d24-b160-c9b740ff682e</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Step 9: Click on button addToCart (addToCart6) - (Dynamic locator variable)</description>
+        <id>d70b9847-475e-438c-9322-fab17518c7db</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_1</name>
+    </variable>
+</TestCaseEntity>

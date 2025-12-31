@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>955a4908-dba1-49ec-b389-d1864ff9886c</id>
+        </flow>
+    </customField>
+    <description>Log in to the admin panel, update product details, manage activities, and export data in various formats while verifying navigation to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC15-Update Product Information and Export Activities</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>f591ec02-95a4-4c96-a16f-099289d3706b</testCaseGuid>
+    <variable>
+        <defaultValue>'Statistics'</defaultValue>
+        <description>Step 31: Click on button adminActions (statistics) - (Dynamic locator variable)</description>
+        <id>5314b794-cd16-4ed7-815d-322a03174e26</id>
+        <masked>false</masked>
+        <name>button_adminActions_buttonInternalHasText</name>
+    </variable>
+    <variable>
+        <defaultValue>'Table View'</defaultValue>
+        <description>Step 32: Click on button adminActions (tableView) - (Dynamic locator variable)</description>
+        <id>ed69640b-4454-4281-a785-5c3b730f187d</id>
+        <masked>false</masked>
+        <name>button_adminActions_buttonInternalHasText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\34 '</defaultValue>
+        <description>Step 6: Click on link productLinks (product4) - (Dynamic locator variable)</description>
+        <id>1b078634-5efc-4c78-81d3-a4f800de5758</id>
+        <masked>false</masked>
+        <name>link_productLinks_liTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'code'</defaultValue>
+        <description>Step 21: Click on span adminLabels (codeLabel) - (Dynamic locator variable)</description>
+        <id>50f8b6fb-f306-44b4-ae30-bf68aa60379b</id>
+        <masked>false</masked>
+        <name>span_adminLabels_internalLabel</name>
+    </variable>
+    <variable>
+        <defaultValue>'code'</defaultValue>
+        <description>Step 23: Click on span adminLabels (codeLabel) - (Dynamic locator variable)</description>
+        <id>ef301cc8-ff9c-4ca7-be70-bbd8d52b976e</id>
+        <masked>false</masked>
+        <name>span_adminLabels_internalLabel_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'file-excel'</defaultValue>
+        <description>Step 27: Click on span adminLabels (fileExcel) - (Dynamic locator variable)</description>
+        <id>599b9f8e-01ae-4da4-8717-dd6ac72f5579</id>
+        <masked>false</masked>
+        <name>span_adminLabels_internalLabel_2</name>
+    </variable>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>66f41b69-be0c-450f-a756-96a54f46dac2</id>
+        </flow>
+    </customField>
+    <description>Log in, navigate to the store, view product details, and check for out-of-stock items while verifying navigation to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC8-View Product Details and Check Availability</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>87ef91c1-121c-43d9-a0a5-5e3fdcd47c4c</testCaseGuid>
+</TestCaseEntity>

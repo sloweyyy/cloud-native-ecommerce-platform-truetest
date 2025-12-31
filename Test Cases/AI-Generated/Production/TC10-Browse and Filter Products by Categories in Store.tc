@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>eb913820-85e9-45b5-acb1-f6601d304a34</id>
+        </flow>
+    </customField>
+    <description>Login to the store, navigate through product categories, and verify the home page after clearing selections.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC10-Browse and Filter Products by Categories in Store</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>b23aec59-6bbd-4718-ae29-ca6d63176810</testCaseGuid>
+    <variable>
+        <defaultValue>'Monitors'</defaultValue>
+        <description>Step 13: Click on div brandCategories (monitors) - (Dynamic locator variable)</description>
+        <id>c6a578c7-7c17-4aa6-a071-76cdb1b274f8</id>
+        <masked>false</masked>
+        <name>div_brandCategories_divTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'ACER'</defaultValue>
+        <description>Step 7: Click on div productCategories (acer) - (Dynamic locator variable)</description>
+        <id>f63f5090-bc3d-4103-aaf1-75b31c267baa</id>
+        <masked>false</masked>
+        <name>div_productCategories_divTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'ASUS'</defaultValue>
+        <description>Step 9: Click on div productCategories (asus) - (Dynamic locator variable)</description>
+        <id>d94b0172-b988-40ae-9528-3720b3e71860</id>
+        <masked>false</masked>
+        <name>div_productCategories_divTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'HP'</defaultValue>
+        <description>Step 11: Click on div productCategories (hp) - (Dynamic locator variable)</description>
+        <id>b7b9770e-93e6-4486-abd0-facde4c53f52</id>
+        <masked>false</masked>
+        <name>div_productCategories_divTitle_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'ACER'</defaultValue>
+        <description>Step 15: Click on div productCategories (acer) - (Dynamic locator variable)</description>
+        <id>829a510a-8885-49f2-a8b4-691b081daa22</id>
+        <masked>false</masked>
+        <name>div_productCategories_divTitle_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'Mice'</defaultValue>
+        <description>Step 17: Click on div productCategories (miceCategory) - (Dynamic locator variable)</description>
+        <id>63bba139-6e29-4a63-8ad7-60f86e841819</id>
+        <masked>false</masked>
+        <name>div_productCategories_divTitle_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'ACER'</defaultValue>
+        <description>Step 8: Click on span productNames (acer) - (Dynamic locator variable)</description>
+        <id>dbc4b855-fbb1-448a-88c9-eac64058e8ae</id>
+        <masked>false</masked>
+        <name>span_productNames_spanTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'ASUS'</defaultValue>
+        <description>Step 10: Click on span productNames (asus) - (Dynamic locator variable)</description>
+        <id>76bc60a9-70a5-4369-b788-27e844540de9</id>
+        <masked>false</masked>
+        <name>span_productNames_spanTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Keyboards'</defaultValue>
+        <description>Step 12: Click on span productNames (keyboards) - (Dynamic locator variable)</description>
+        <id>0d50af05-f597-4f2a-87c5-39ecc72437a2</id>
+        <masked>false</masked>
+        <name>span_productNames_spanTitle_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'HP'</defaultValue>
+        <description>Step 14: Click on span productNames (hp) - (Dynamic locator variable)</description>
+        <id>a57d3d91-a8a6-4a63-a3bf-26a3a5584f9b</id>
+        <masked>false</masked>
+        <name>span_productNames_spanTitle_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'Monitors'</defaultValue>
+        <description>Step 16: Click on span productNames (monitors) - (Dynamic locator variable)</description>
+        <id>290b6214-aaa2-4986-add5-4469db3bec20</id>
+        <masked>false</masked>
+        <name>span_productNames_spanTitle_4</name>
+    </variable>
+</TestCaseEntity>

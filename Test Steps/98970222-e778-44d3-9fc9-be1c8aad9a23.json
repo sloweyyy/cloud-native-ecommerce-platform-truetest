@@ -1,0 +1,75 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Navigate to /",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Click on button addToCart (addToCart6)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on button checkout2 -> Navigate to page '/login'",
+            "sub_steps": [],
+            "target_name": "button_checkout2"
+        },
+        {
+            "name": "Click on button signInWithAzureAd4 -> Navigate to page '/'",
+            "sub_steps": [],
+            "target_name": "button_signInWithAzureAd4"
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Click on button addToCart (addToCart6)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on button checkout3 -> Navigate to page '/checkout'",
+            "sub_steps": [],
+            "target_name": "button_checkout3"
+        },
+        {
+            "name": "Click on button placeOrder",
+            "sub_steps": [],
+            "target_name": "button_placeOrder"
+        },
+        {
+            "name": "Click on button backToCart2",
+            "sub_steps": [],
+            "target_name": "button_backToCart2"
+        },
+        {
+            "name": "Click on button store -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

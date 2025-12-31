@@ -17,9 +17,9 @@
             "target_name": ""
         },
         {
-            "name": "Click on button signIn",
+            "name": "Click on button userMenu",
             "sub_steps": [],
-            "target_name": "button_signIn"
+            "target_name": "button_userMenu"
         },
         {
             "name": "Click on button store -> Navigate to page '/store'",
@@ -32,24 +32,24 @@
             "target_name": "button_signIn"
         },
         {
-            "name": "Click on item signIn2 -> Navigate to page '/login'",
+            "name": "Click on item signIn -> Navigate to page '/login'",
             "sub_steps": [],
-            "target_name": "item_signIn2"
+            "target_name": "item_signIn"
         },
         {
-            "name": "Click on button signInWithAzureAd",
+            "name": "Click on button signInWithAzureAd2",
             "sub_steps": [],
-            "target_name": "button_signInWithAzureAd"
+            "target_name": "button_signInWithAzureAd2"
         },
         {
-            "name": "Click on button signInWithAzureAd -> Navigate to page '/'",
+            "name": "Click on button signInWithAzureAd3 -> Navigate to page '/'",
             "sub_steps": [],
-            "target_name": "button_signInWithAzureAd"
+            "target_name": "button_signInWithAzureAd3"
         },
         {
-            "name": "Click on button cart -> Navigate to page '/checkout'",
+            "name": "Click on button cart2 -> Navigate to page '/checkout'",
             "sub_steps": [],
-            "target_name": "button_cart"
+            "target_name": "button_cart2"
         },
         {
             "name": "Click on div productDetails",
@@ -62,7 +62,7 @@
             "target_name": "button_store"
         },
         {
-            "name": "Click on button addToCart (addToCart)",
+            "name": "Click on button addToCart (addToCart5)",
             "sub_steps": [],
             "target_name": "button_addToCart"
         },
@@ -82,9 +82,9 @@
             "target_name": "div_productDetails2"
         },
         {
-            "name": "Click on span productCategories (mice) -> Navigate to page ''",
+            "name": "Click on span productTypes (mice) -> Navigate to page ''",
             "sub_steps": [],
-            "target_name": "span_productCategories"
+            "target_name": "span_productTypes"
         },
         {
             "name": "Take full page screenshot as checkpoint",

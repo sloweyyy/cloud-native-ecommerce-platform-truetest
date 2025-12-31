@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>40ebe4a3-ae3e-42dc-a897-c7e332372bfa</id>
+        </flow>
+    </customField>
+    <description>Log in and add multiple items to the cart. Perform several checkouts and deletions, then verify the cart is empty and return to shopping.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC25-Add and Remove Items from Cart with Multiple Checkouts</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>41f10500-76db-4e43-89ca-49021fc4e92a</testCaseGuid>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Step 10: Click on button addToCart (addToCart10) - (Dynamic locator variable)</description>
+        <id>2d1d8a3c-379a-485a-b08b-6bf833e413b8</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth</name>
+    </variable>
+    <variable>
+        <defaultValue>'3'</defaultValue>
+        <description>Step 11: Click on button addToCart (addToCart11) - (Dynamic locator variable)</description>
+        <id>2fc8b452-7551-48be-aeab-79584a3a82e8</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Step 18: Click on button addToCart (addToCart12) - (Dynamic locator variable)</description>
+        <id>3b8e32b5-76e5-4985-a0ae-f5c29099df98</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Step 19: Click on button addToCart (addToCart10) - (Dynamic locator variable)</description>
+        <id>6d107621-57d6-4256-847f-e0be03da325e</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Step 26: Click on button addToCart (addToCart12) - (Dynamic locator variable)</description>
+        <id>e87c285f-d1b1-4f47-b2d5-4f7c2410f8b8</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_4</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Step 33: Click on button addToCart (addToCart10) - (Dynamic locator variable)</description>
+        <id>f46ba74f-7dc9-4a5f-9c98-0e3b0d06aa11</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_5</name>
+    </variable>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Step 37: Click on button addToCart (addToCart13) -&gt; Navigate to page '' - (Dynamic locator variable)</description>
+        <id>e33c7a62-6167-4b8d-af8e-1991c9449c5d</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_6</name>
+    </variable>
+    <variable>
+        <defaultValue>'1767115346351'</defaultValue>
+        <description>Step 24: Click on span deleteIcons (delete) - (Dynamic locator variable)</description>
+        <id>00749f97-e871-469d-9ff0-b45d94c757fe</id>
+        <masked>false</masked>
+        <name>span_deleteIcons_mfeCheckout</name>
+    </variable>
+    <variable>
+        <defaultValue>'1767115370101'</defaultValue>
+        <description>Step 31: Click on span deleteIcons (deleteIcon2) - (Dynamic locator variable)</description>
+        <id>bba4dee8-613f-4f8b-ba6d-51c7762d4f1d</id>
+        <masked>false</masked>
+        <name>span_deleteIcons_mfeCheckout_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'1767115385043'</defaultValue>
+        <description>Step 35: Click on span deleteIcons (deleteIcon3) - (Dynamic locator variable)</description>
+        <id>6f395484-812e-43b5-a979-5b89e86e82e9</id>
+        <masked>false</masked>
+        <name>span_deleteIcons_mfeCheckout_2</name>
+    </variable>
+</TestCaseEntity>

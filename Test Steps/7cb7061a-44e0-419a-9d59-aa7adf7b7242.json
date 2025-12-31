@@ -17,34 +17,34 @@
             "target_name": ""
         },
         {
-            "name": "Click on button addToCart (addToCart)",
+            "name": "Click on button addToCart (addToCart5)",
             "sub_steps": [],
             "target_name": "button_addToCart"
         },
         {
-            "name": "Click on button addToCart (addToCart3)",
+            "name": "Click on button addToCart (addToCart6)",
             "sub_steps": [],
             "target_name": "button_addToCart"
         },
         {
-            "name": "Click on button addToCart (addToCart2)",
+            "name": "Click on button addToCart (addToCart7)",
             "sub_steps": [],
             "target_name": "button_addToCart"
         },
         {
-            "name": "Click on button addToCart (addToCart)",
+            "name": "Click on button addToCart (addToCart5)",
             "sub_steps": [],
             "target_name": "button_addToCart"
         },
         {
-            "name": "Click on button cartActions (cart2) -> Navigate to page '/checkout'",
+            "name": "Click on button cartActions (cart) -> Navigate to page '/checkout'",
             "sub_steps": [],
             "target_name": "button_cartActions"
         },
         {
-            "name": "Click on button quantityAdjust (plus)",
+            "name": "Click on button quantityAdjustments (plus)",
             "sub_steps": [],
-            "target_name": "button_quantityAdjust"
+            "target_name": "button_quantityAdjustments"
         },
         {
             "name": "Click on span checkoutButton",
@@ -62,9 +62,9 @@
             "target_name": "input_object"
         },
         {
-            "name": "Click on button quantityAdjust (plus2)",
+            "name": "Click on button quantityAdjustments (plus2)",
             "sub_steps": [],
-            "target_name": "button_quantityAdjust"
+            "target_name": "button_quantityAdjustments"
         },
         {
             "name": "Click on span checkoutProceedButton",
@@ -102,7 +102,7 @@
             "target_name": "button_store"
         },
         {
-            "name": "Click on button addToCart (addToCart)",
+            "name": "Click on button addToCart (addToCart5)",
             "sub_steps": [],
             "target_name": "button_addToCart"
         },
@@ -127,12 +127,12 @@
             "target_name": "button_store"
         },
         {
-            "name": "Click on button addToCart (addToCart4)",
+            "name": "Click on button addToCart (addToCart8)",
             "sub_steps": [],
             "target_name": "button_addToCart"
         },
         {
-            "name": "Click on button addToCart (addToCart5)",
+            "name": "Click on button addToCart (addToCart9)",
             "sub_steps": [],
             "target_name": "button_addToCart"
         },

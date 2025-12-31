@@ -92,9 +92,9 @@
             "target_name": "input_brand"
         },
         {
-            "name": "Click on div productItems (acers)",
+            "name": "Click on div adminProductCategories (acers)",
             "sub_steps": [],
-            "target_name": "div_productItems"
+            "target_name": "div_adminProductCategories"
         },
         {
             "name": "Click on input type",
@@ -102,9 +102,9 @@
             "target_name": "input_type"
         },
         {
-            "name": "Click on div productItems (keyboards)",
+            "name": "Click on div adminProductCategories (keyboards)",
             "sub_steps": [],
-            "target_name": "div_productItems"
+            "target_name": "div_adminProductCategories"
         },
         {
             "name": "Click on div productImageLabel",
@@ -257,9 +257,9 @@
             "target_name": "input_brand"
         },
         {
-            "name": "Click on div productItems (brandKeychron)",
+            "name": "Click on div adminProductCategories (brandKeychron)",
             "sub_steps": [],
-            "target_name": "div_productItems"
+            "target_name": "div_adminProductCategories"
         },
         {
             "name": "Click on input type",
@@ -267,9 +267,9 @@
             "target_name": "input_type"
         },
         {
-            "name": "Click on div productItems (keyboards)",
+            "name": "Click on div adminProductCategories (keyboards)",
             "sub_steps": [],
-            "target_name": "div_productItems"
+            "target_name": "div_adminProductCategories"
         },
         {
             "name": "Click on span uploadImage",
@@ -287,9 +287,9 @@
             "target_name": "button_createProduct"
         },
         {
-            "name": "Click on link product3",
+            "name": "Click on link productLinks (product3)",
             "sub_steps": [],
-            "target_name": "link_product3"
+            "target_name": "link_productLinks"
         },
         {
             "name": "Click on td productName",

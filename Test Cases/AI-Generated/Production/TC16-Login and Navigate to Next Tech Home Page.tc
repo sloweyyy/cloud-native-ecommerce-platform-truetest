@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>b31e64b4-f75a-45fe-9d43-ba9cdd881937</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, log in, access the user menu, sign in with Azure AD, and click to navigate to the next tech home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC16-Login and Navigate to Next Tech Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>cac17856-01f1-4255-8dc7-1789c90fc633</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>2d393b0f-000d-497d-aedb-f411e6fd7916</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, log in, and access the store. Verify that the home page is displayed correctly after navigation.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC23-Login and Navigate to Home and Store</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>7178d3d1-a858-4a26-aff6-32f7a7120e0d</testCaseGuid>
+</TestCaseEntity>

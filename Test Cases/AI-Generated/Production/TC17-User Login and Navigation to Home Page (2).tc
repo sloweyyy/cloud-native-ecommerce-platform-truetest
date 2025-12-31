@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>11b3dfe9-30d9-4d1f-bbbf-89bbb63020f3</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, log in, access the user menu, and verify successful navigation to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC17-User Login and Navigation to Home Page (2)</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>22b45a99-5c46-4a0d-92b0-070a879ab0ea</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,100 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Navigate to /",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button allCategories",
+            "sub_steps": [],
+            "target_name": "button_allCategories"
+        },
+        {
+            "name": "Click on item keyboards -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "item_keyboards"
+        },
+        {
+            "name": "Click on span selectionSearch",
+            "sub_steps": [],
+            "target_name": "span_selectionSearch"
+        },
+        {
+            "name": "Click on div productCategories (acer)",
+            "sub_steps": [],
+            "target_name": "div_productCategories"
+        },
+        {
+            "name": "Click on span productNames (acer)",
+            "sub_steps": [],
+            "target_name": "span_productNames"
+        },
+        {
+            "name": "Click on div productCategories (asus)",
+            "sub_steps": [],
+            "target_name": "div_productCategories"
+        },
+        {
+            "name": "Click on span productNames (asus)",
+            "sub_steps": [],
+            "target_name": "span_productNames"
+        },
+        {
+            "name": "Click on div productCategories (hp)",
+            "sub_steps": [],
+            "target_name": "div_productCategories"
+        },
+        {
+            "name": "Click on span productNames (keyboards)",
+            "sub_steps": [],
+            "target_name": "span_productNames"
+        },
+        {
+            "name": "Click on div brandCategories (monitors)",
+            "sub_steps": [],
+            "target_name": "div_brandCategories"
+        },
+        {
+            "name": "Click on span productNames (hp)",
+            "sub_steps": [],
+            "target_name": "span_productNames"
+        },
+        {
+            "name": "Click on div productCategories (acer)",
+            "sub_steps": [],
+            "target_name": "div_productCategories"
+        },
+        {
+            "name": "Click on span productNames (monitors)",
+            "sub_steps": [],
+            "target_name": "span_productNames"
+        },
+        {
+            "name": "Click on div productCategories (miceCategory)",
+            "sub_steps": [],
+            "target_name": "div_productCategories"
+        },
+        {
+            "name": "Click on span clearSelection -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "span_clearSelection"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

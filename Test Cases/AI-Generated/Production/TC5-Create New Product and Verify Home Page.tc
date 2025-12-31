@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>3e953ae5-b61c-4bae-a47c-93ccf42f2450</id>
+        </flow>
+    </customField>
+    <description>Login and navigate to the store. Create a new product with details and verify the home page after navigating through various sections.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC5-Create New Product and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>ecfec245-9fde-442f-8fa0-b226155dbb0d</testCaseGuid>
+    <variable>
+        <defaultValue>'HP'</defaultValue>
+        <description>Step 46: Click on div adminProductCategories (productHp) - (Dynamic locator variable)</description>
+        <id>32f35550-3331-4839-b2a3-dc6be41092d8</id>
+        <masked>false</masked>
+        <name>div_adminProductCategories_divTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'Keyboards'</defaultValue>
+        <description>Step 48: Click on div adminProductCategories (keyboards) - (Dynamic locator variable)</description>
+        <id>eb42c330-e523-487f-b9a9-5ac747587207</id>
+        <masked>false</masked>
+        <name>div_adminProductCategories_divTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'ACER'</defaultValue>
+        <description>Step 10: Click on div brandCategories (brandAcer) - (Dynamic locator variable)</description>
+        <id>df756a7e-8d2b-467f-a89d-4320c89d0b32</id>
+        <masked>false</masked>
+        <name>div_brandCategories_divTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'100.00'</defaultValue>
+        <description>Step 44: Enter input value in input price - (Input data variable)</description>
+        <id>802b6aef-6366-44bc-85b4-dc31d8fe48ca</id>
+        <masked>false</masked>
+        <name>input_price</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{date_time}}'</defaultValue>
+        <description>Step 51: Enter input value in input price - (Input data variable)</description>
+        <id>7823cb4c-6728-404f-862e-d4092d6d6618</id>
+        <masked>false</masked>
+        <name>input_price_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Demo'</defaultValue>
+        <description>Step 24: Enter input value in input productName - (Input data variable)</description>
+        <id>1aaad98d-32fe-4807-a46b-b34a446a098b</id>
+        <masked>false</masked>
+        <name>input_productName</name>
+    </variable>
+    <variable>
+        <defaultValue>'[Product Name] Demo'</defaultValue>
+        <description>Step 36: Enter input value in input productName - (Input data variable)</description>
+        <id>87cb1845-39bf-4770-91d4-eefe3e1402e8</id>
+        <masked>false</masked>
+        <name>input_productName_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'This is a product for demo'</defaultValue>
+        <description>Step 26: Enter input value in input summary - (Input data variable)</description>
+        <id>9c254d67-2d0d-4323-ba1e-e6bbc5c51408</id>
+        <masked>false</masked>
+        <name>input_summary</name>
+    </variable>
+    <variable>
+        <defaultValue>'This is a product for demo'</defaultValue>
+        <description>Step 29: Enter input value in input summary - (Input data variable)</description>
+        <id>c7e081dd-e965-40da-adfb-97f4a7790b6a</id>
+        <masked>false</masked>
+        <name>input_summary_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'[Summary]'</defaultValue>
+        <description>Step 39: Enter input value in input summary - (Input data variable)</description>
+        <id>be570643-2a60-474e-a5cb-3c93551fa71a</id>
+        <masked>false</masked>
+        <name>input_summary_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'This is a product for demo'</defaultValue>
+        <description>Step 31: Enter input value in textarea description - (Input data variable)</description>
+        <id>8940d6ea-9315-4dc3-a5d4-fbf6d3a075f3</id>
+        <masked>false</masked>
+        <name>textarea_description</name>
+    </variable>
+    <variable>
+        <defaultValue>'[Description]'</defaultValue>
+        <description>Step 42: Enter input value in textarea description - (Input data variable)</description>
+        <id>93053834-d7ee-4bc7-9af8-554d64c6c187</id>
+        <masked>false</masked>
+        <name>textarea_description_1</name>
+    </variable>
+</TestCaseEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>394f2189-1341-45cb-b60b-bc8566d12f1c</id>
+        </flow>
+    </customField>
+    <description>Login to the admin panel, create a new product, and navigate through product and order sections to verify the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC14-Create New Product in Admin Panel and Verify</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>6305b377-e7f4-42ba-ac11-65bbb565b1c9</testCaseGuid>
+    <variable>
+        <defaultValue>'{{name}}'</defaultValue>
+        <description>Step 6: Enter input value in input productName - (Input data variable)</description>
+        <id>b752e519-85e0-43dd-95aa-9c1beaa59641</id>
+        <masked>false</masked>
+        <name>input_productName</name>
+    </variable>
+</TestCaseEntity>

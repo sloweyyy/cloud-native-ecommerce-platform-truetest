@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>029cfd6c-641b-4998-ab6c-360237a51fcc</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, log in, and sign in using Azure AD. Verify that the home page is displayed successfully.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC19-Verify User Sign In with Azure AD from Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>8e0c61ad-3866-41dc-9f75-c7c4c439e94e</testCaseGuid>
+</TestCaseEntity>

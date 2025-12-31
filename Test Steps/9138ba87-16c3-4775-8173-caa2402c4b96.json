@@ -17,27 +17,27 @@
             "target_name": ""
         },
         {
-            "name": "Click on button signIn",
+            "name": "Click on button userMenu",
             "sub_steps": [],
-            "target_name": "button_signIn"
+            "target_name": "button_userMenu"
         },
         {
-            "name": "Click on item signIn -> Navigate to page '/login'",
+            "name": "Click on item signIn4 -> Navigate to page '/login'",
             "sub_steps": [],
-            "target_name": "item_signIn"
+            "target_name": "item_signIn4"
         },
         {
-            "name": "Click on button signInWithAzureAd2 -> Navigate to page '/'",
+            "name": "Click on button signInWithAzureAd4 -> Navigate to page '/'",
             "sub_steps": [],
-            "target_name": "button_signInWithAzureAd2"
+            "target_name": "button_signInWithAzureAd4"
         },
         {
-            "name": "Click on button store -> Navigate to page '/store'",
+            "name": "Click on button store2 -> Navigate to page '/store'",
             "sub_steps": [],
-            "target_name": "button_store"
+            "target_name": "button_store2"
         },
         {
-            "name": "Click on button addToCart (addToCart2)",
+            "name": "Click on button addToCart (addToCart10)",
             "sub_steps": [],
             "target_name": "button_addToCart"
         },
@@ -47,19 +47,19 @@
             "target_name": "button_checkout"
         },
         {
-            "name": "Click on button checkoutOptions (continueShopping2)",
+            "name": "Click on button checkoutActions (continueShopping2)",
             "sub_steps": [],
-            "target_name": "button_checkoutOptions"
+            "target_name": "button_checkoutActions"
         },
         {
-            "name": "Click on button checkoutOptions (proceedToCheckout)",
+            "name": "Click on button checkoutActions (proceedToCheckout)",
             "sub_steps": [],
-            "target_name": "button_checkoutOptions"
+            "target_name": "button_checkoutActions"
         },
         {
-            "name": "Click on button checkoutOptions (proceedToCheckout)",
+            "name": "Click on button checkoutActions (proceedToCheckout)",
             "sub_steps": [],
-            "target_name": "button_checkoutOptions"
+            "target_name": "button_checkoutActions"
         },
         {
             "name": "Click on div checkoutSummary",
@@ -77,24 +77,24 @@
             "target_name": "button_nextTechHome"
         },
         {
-            "name": "Click on button store -> Navigate to page '/store'",
+            "name": "Click on button store2 -> Navigate to page '/store'",
             "sub_steps": [],
-            "target_name": "button_store"
+            "target_name": "button_store2"
         },
         {
-            "name": "Click on button addToCart (addToCart3)",
+            "name": "Click on button addToCart (addToCart12)",
             "sub_steps": [],
             "target_name": "button_addToCart"
         },
         {
-            "name": "Click on button cartActions (cart) -> Navigate to page '/checkout'",
+            "name": "Click on button cartActions (cart2) -> Navigate to page '/checkout'",
             "sub_steps": [],
             "target_name": "button_cartActions"
         },
         {
-            "name": "Click on button checkoutOptions (proceedToCheckout) -> Navigate to page ''",
+            "name": "Click on button checkoutActions (proceedToCheckout) -> Navigate to page ''",
             "sub_steps": [],
-            "target_name": "button_checkoutOptions"
+            "target_name": "button_checkoutActions"
         },
         {
             "name": "Take full page screenshot as checkpoint",

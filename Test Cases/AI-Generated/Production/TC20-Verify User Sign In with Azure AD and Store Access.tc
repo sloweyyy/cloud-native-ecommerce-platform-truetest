@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>27dd0784-3d6b-49da-957c-ac70e98e8522</id>
+        </flow>
+    </customField>
+    <description>Log in from the home page, sign in using Azure AD from the store, and verify that the home page is displayed after signing in.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC20-Verify User Sign In with Azure AD and Store Access</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>790bdf25-4054-40c0-9d86-e08fac0db101</testCaseGuid>
+</TestCaseEntity>

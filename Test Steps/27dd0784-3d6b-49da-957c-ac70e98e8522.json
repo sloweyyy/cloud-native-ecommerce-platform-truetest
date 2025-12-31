@@ -1,0 +1,60 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Navigate to /",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button signIn2",
+            "sub_steps": [],
+            "target_name": "button_signIn2"
+        },
+        {
+            "name": "Click on item signIn2 -> Navigate to page '/login'",
+            "sub_steps": [],
+            "target_name": "item_signIn2"
+        },
+        {
+            "name": "Click on button signInWithAzureAd2 -> Navigate to page '/'",
+            "sub_steps": [],
+            "target_name": "button_signInWithAzureAd2"
+        },
+        {
+            "name": "Click on button store -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store"
+        },
+        {
+            "name": "Click on button signIn",
+            "sub_steps": [],
+            "target_name": "button_signIn"
+        },
+        {
+            "name": "Click on item signIn -> Navigate to page '/login'",
+            "sub_steps": [],
+            "target_name": "item_signIn"
+        },
+        {
+            "name": "Click on button signInWithAzureAd2 -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "button_signInWithAzureAd2"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

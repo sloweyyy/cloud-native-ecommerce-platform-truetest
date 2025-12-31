@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>4f7cd2ff-b496-4242-8d24-2cc1eedf95c4</id>
+        </flow>
+    </customField>
+    <description>Login to the store, navigate through categories, and proceed to checkout to verify the checkout page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC2-Checkout Process from Store and Verify Checkout Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>41b35609-c6a8-4b92-8406-ce0eb8c2fc57</testCaseGuid>
+</TestCaseEntity>

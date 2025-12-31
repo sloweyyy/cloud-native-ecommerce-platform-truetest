@@ -17,9 +17,9 @@
             "target_name": ""
         },
         {
-            "name": "Click on button signInWithAzureAd -> Navigate to page '/'",
+            "name": "Click on button signInWithAzureAd3 -> Navigate to page '/'",
             "sub_steps": [],
-            "target_name": "button_signInWithAzureAd"
+            "target_name": "button_signInWithAzureAd3"
         },
         {
             "name": "Click on button checkout -> Navigate to page '/checkout'",
@@ -37,14 +37,14 @@
             "target_name": "button_removeItem"
         },
         {
-            "name": "Click on button checkoutOptions (proceedToCheckout)",
+            "name": "Click on button checkoutActions (proceedToCheckout)",
             "sub_steps": [],
-            "target_name": "button_checkoutOptions"
+            "target_name": "button_checkoutActions"
         },
         {
-            "name": "Click on button checkoutOptions (proceedToCheckout)",
+            "name": "Click on button checkoutActions (proceedToCheckout)",
             "sub_steps": [],
-            "target_name": "button_checkoutOptions"
+            "target_name": "button_checkoutActions"
         },
         {
             "name": "Click on button proceedToCheckout2",
@@ -72,24 +72,24 @@
             "target_name": "span_bestSeller"
         },
         {
-            "name": "Click on span productCategories (laptops)",
+            "name": "Click on span productTypes (laptops)",
             "sub_steps": [],
-            "target_name": "span_productCategories"
+            "target_name": "span_productTypes"
         },
         {
-            "name": "Click on span productCategories (keyboards)",
+            "name": "Click on span productTypes (keyboards2)",
             "sub_steps": [],
-            "target_name": "span_productCategories"
+            "target_name": "span_productTypes"
         },
         {
-            "name": "Click on span productCategories (monitors)",
+            "name": "Click on span productTypes (monitors2)",
             "sub_steps": [],
-            "target_name": "span_productCategories"
+            "target_name": "span_productTypes"
         },
         {
-            "name": "Click on span productCategories (mice)",
+            "name": "Click on span productTypes (mice)",
             "sub_steps": [],
-            "target_name": "span_productCategories"
+            "target_name": "span_productTypes"
         },
         {
             "name": "Click on button clearFilters -> Navigate to page '/admin'",

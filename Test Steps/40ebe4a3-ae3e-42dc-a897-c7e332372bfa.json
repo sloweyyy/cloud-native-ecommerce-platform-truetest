@@ -1,0 +1,195 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Navigate to /store",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button signIn2",
+            "sub_steps": [],
+            "target_name": "button_signIn2"
+        },
+        {
+            "name": "Click on list welcomeMessage",
+            "sub_steps": [],
+            "target_name": "list_welcomeMessage"
+        },
+        {
+            "name": "Click on item signIn2 -> Navigate to page '/login'",
+            "sub_steps": [],
+            "target_name": "item_signIn2"
+        },
+        {
+            "name": "Click on button signInWithAzureAd3 -> Navigate to page '/'",
+            "sub_steps": [],
+            "target_name": "button_signInWithAzureAd3"
+        },
+        {
+            "name": "Click on button store2 -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store2"
+        },
+        {
+            "name": "Click on span productCardButton",
+            "sub_steps": [],
+            "target_name": "span_productCardButton"
+        },
+        {
+            "name": "Click on button addToCart (addToCart10)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on button addToCart (addToCart11)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on button checkout3 -> Navigate to page '/checkout'",
+            "sub_steps": [],
+            "target_name": "button_checkout3"
+        },
+        {
+            "name": "Click on button delete",
+            "sub_steps": [],
+            "target_name": "button_delete"
+        },
+        {
+            "name": "Click on button delete",
+            "sub_steps": [],
+            "target_name": "button_delete"
+        },
+        {
+            "name": "Click on button delete2",
+            "sub_steps": [],
+            "target_name": "button_delete2"
+        },
+        {
+            "name": "Click on div cartEmptyMessage",
+            "sub_steps": [],
+            "target_name": "div_cartEmptyMessage"
+        },
+        {
+            "name": "Click on button backToShopping -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_backToShopping"
+        },
+        {
+            "name": "Click on button addToCart (addToCart12)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on button addToCart (addToCart10)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on button checkout3 -> Navigate to page '/checkout'",
+            "sub_steps": [],
+            "target_name": "button_checkout3"
+        },
+        {
+            "name": "Click on span deleteIcon",
+            "sub_steps": [],
+            "target_name": "span_deleteIcon"
+        },
+        {
+            "name": "Click on span deleteIcon",
+            "sub_steps": [],
+            "target_name": "span_deleteIcon"
+        },
+        {
+            "name": "Click on span deleteIcon",
+            "sub_steps": [],
+            "target_name": "span_deleteIcon"
+        },
+        {
+            "name": "Click on span deleteIcons (delete)",
+            "sub_steps": [],
+            "target_name": "span_deleteIcons"
+        },
+        {
+            "name": "Click on button backToShopping -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_backToShopping"
+        },
+        {
+            "name": "Click on button addToCart (addToCart12)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on div subtotalCheckout",
+            "sub_steps": [],
+            "target_name": "div_subtotalCheckout"
+        },
+        {
+            "name": "Click on button checkout3 -> Navigate to page '/checkout'",
+            "sub_steps": [],
+            "target_name": "button_checkout3"
+        },
+        {
+            "name": "Click on span deleteIcon",
+            "sub_steps": [],
+            "target_name": "span_deleteIcon"
+        },
+        {
+            "name": "Click on span deleteIcon",
+            "sub_steps": [],
+            "target_name": "span_deleteIcon"
+        },
+        {
+            "name": "Click on span deleteIcons (deleteIcon2)",
+            "sub_steps": [],
+            "target_name": "span_deleteIcons"
+        },
+        {
+            "name": "Click on button backToShopping -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_backToShopping"
+        },
+        {
+            "name": "Click on button addToCart (addToCart10)",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Click on button checkout3 -> Navigate to page '/checkout'",
+            "sub_steps": [],
+            "target_name": "button_checkout3"
+        },
+        {
+            "name": "Click on span deleteIcons (deleteIcon3)",
+            "sub_steps": [],
+            "target_name": "span_deleteIcons"
+        },
+        {
+            "name": "Click on button backToShopping -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_backToShopping"
+        },
+        {
+            "name": "Click on button addToCart (addToCart13) -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "button_addToCart"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

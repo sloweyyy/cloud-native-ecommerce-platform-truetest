@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>44b4482f-a748-4e6d-9d73-ffbf52e03161</id>
+        </flow>
+    </customField>
+    <description>Login and navigate to the home page. Sign in using Azure AD and verify access to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC11-Sign In and Verify Home Page Access</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>0545b14c-348a-4b7f-a6cc-00abb8a3159e</testCaseGuid>
+</TestCaseEntity>

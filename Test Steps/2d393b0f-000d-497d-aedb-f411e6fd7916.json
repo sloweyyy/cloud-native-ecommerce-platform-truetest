@@ -1,0 +1,45 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Navigate to /",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on div nextTechStoreCart",
+            "sub_steps": [],
+            "target_name": "div_nextTechStoreCart"
+        },
+        {
+            "name": "Click on button store2 -> Navigate to page '/store'",
+            "sub_steps": [],
+            "target_name": "button_store2"
+        },
+        {
+            "name": "Click on button allCategories",
+            "sub_steps": [],
+            "target_name": "button_allCategories"
+        },
+        {
+            "name": "Click on button allCategories2 -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "button_allCategories2"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

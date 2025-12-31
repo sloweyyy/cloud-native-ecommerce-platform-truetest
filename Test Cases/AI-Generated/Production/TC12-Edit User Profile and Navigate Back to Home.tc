@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>f8d729ac-2f6d-42bc-8445-f871729ed395</id>
+        </flow>
+    </customField>
+    <description>Login to the account, edit the user profile, and return to the home page to verify navigation.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC12-Edit User Profile and Navigate Back to Home</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>a952541c-3c3f-4c29-8e5c-ea91013c6596</testCaseGuid>
+</TestCaseEntity>

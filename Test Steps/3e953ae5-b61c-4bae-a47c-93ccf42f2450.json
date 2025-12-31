@@ -17,9 +17,9 @@
             "target_name": ""
         },
         {
-            "name": "Click on button store -> Navigate to page '/store'",
+            "name": "Click on button store2 -> Navigate to page '/store'",
             "sub_steps": [],
-            "target_name": "button_store"
+            "target_name": "button_store2"
         },
         {
             "name": "Click on button signIn",
@@ -27,19 +27,19 @@
             "target_name": "button_signIn"
         },
         {
-            "name": "Click on item signIn2 -> Navigate to page '/login'",
+            "name": "Click on item signIn -> Navigate to page '/login'",
             "sub_steps": [],
-            "target_name": "item_signIn2"
+            "target_name": "item_signIn"
         },
         {
-            "name": "Click on button signInWithAzureAd -> Navigate to page '/'",
+            "name": "Click on button signInWithAzureAd3 -> Navigate to page '/'",
             "sub_steps": [],
-            "target_name": "button_signInWithAzureAd"
+            "target_name": "button_signInWithAzureAd3"
         },
         {
-            "name": "Click on button store -> Navigate to page '/store'",
+            "name": "Click on button store2 -> Navigate to page '/store'",
             "sub_steps": [],
-            "target_name": "button_store"
+            "target_name": "button_store2"
         },
         {
             "name": "Click on input search",
@@ -47,9 +47,9 @@
             "target_name": "input_search"
         },
         {
-            "name": "Click on div brandAcer",
+            "name": "Click on div brandCategories (brandAcer)",
             "sub_steps": [],
-            "target_name": "div_brandAcer"
+            "target_name": "div_brandCategories"
         },
         {
             "name": "Click on button viewDetails",
@@ -227,9 +227,9 @@
             "target_name": "input_brand"
         },
         {
-            "name": "Click on div productItems (productHp)",
+            "name": "Click on div adminProductCategories (productHp)",
             "sub_steps": [],
-            "target_name": "div_productItems"
+            "target_name": "div_adminProductCategories"
         },
         {
             "name": "Click on input type",
@@ -237,9 +237,9 @@
             "target_name": "input_type"
         },
         {
-            "name": "Click on div productItems (keyboards)",
+            "name": "Click on div adminProductCategories (keyboards)",
             "sub_steps": [],
-            "target_name": "div_productItems"
+            "target_name": "div_adminProductCategories"
         },
         {
             "name": "Click on span uploadImage",

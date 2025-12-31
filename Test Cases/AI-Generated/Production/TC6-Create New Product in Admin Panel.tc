@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>27e571a8-eccb-43e0-b6f5-1b78df193a8d</id>
+        </flow>
+    </customField>
+    <description>Log in to the admin panel, create a new product by filling in details, and verify the product creation on the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC6-Create New Product in Admin Panel</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>725ad30e-fd9a-47d9-bbe5-571cc839540c</testCaseGuid>
+    <variable>
+        <defaultValue>'ACER'</defaultValue>
+        <description>Step 19: Click on div adminProductCategories (acers) - (Dynamic locator variable)</description>
+        <id>c73f002b-9cf1-4a7b-bc94-bb00139c9021</id>
+        <masked>false</masked>
+        <name>div_adminProductCategories_divTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'Keyboards'</defaultValue>
+        <description>Step 21: Click on div adminProductCategories (keyboards) - (Dynamic locator variable)</description>
+        <id>99cda243-5fdc-490c-9370-c2fd9f7817b4</id>
+        <masked>false</masked>
+        <name>div_adminProductCategories_divTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Keychron'</defaultValue>
+        <description>Step 52: Click on div adminProductCategories (brandKeychron) - (Dynamic locator variable)</description>
+        <id>9eb75ffe-4345-49bd-9bf9-7772d8fad921</id>
+        <masked>false</masked>
+        <name>div_adminProductCategories_divTitle_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Keyboards'</defaultValue>
+        <description>Step 54: Click on div adminProductCategories (keyboards) - (Dynamic locator variable)</description>
+        <id>9a55585d-0b8b-4fde-b818-f17e04c060de</id>
+        <masked>false</masked>
+        <name>div_adminProductCategories_divTitle_3</name>
+    </variable>
+    <variable>
+        <defaultValue>'Keychron'</defaultValue>
+        <description>Step 30: Enter input value in input brandName - (Input data variable)</description>
+        <id>d2e3d6d6-cd16-46fe-9eaa-b46c023de73b</id>
+        <masked>false</masked>
+        <name>input_brandName</name>
+    </variable>
+    <variable>
+        <defaultValue>'5.00'</defaultValue>
+        <description>Step 17: Enter input value in input price - (Input data variable)</description>
+        <id>67b4837e-c125-411c-9c35-e05f38dcfc49</id>
+        <masked>false</masked>
+        <name>input_price</name>
+    </variable>
+    <variable>
+        <defaultValue>'5.00'</defaultValue>
+        <description>Step 50: Enter input value in input price - (Input data variable)</description>
+        <id>01980e7b-9b3c-4c12-9231-e4e5a37e031b</id>
+        <masked>false</masked>
+        <name>input_price_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Product Name'</defaultValue>
+        <description>Step 8: Enter input value in input productName - (Input data variable)</description>
+        <id>be0e572a-2388-4044-a6c4-b4daff593b6c</id>
+        <masked>false</masked>
+        <name>input_productName</name>
+    </variable>
+    <variable>
+        <defaultValue>'Product Name'</defaultValue>
+        <description>Step 40: Enter input value in input productName - (Input data variable)</description>
+        <id>829f96f0-b356-4ba9-9d02-aa83ac857029</id>
+        <masked>false</masked>
+        <name>input_productName_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Summary'</defaultValue>
+        <description>Step 12: Enter input value in input summary - (Input data variable)</description>
+        <id>53509372-4c2d-4077-8488-2055673bfdad</id>
+        <masked>false</masked>
+        <name>input_summary</name>
+    </variable>
+    <variable>
+        <defaultValue>'Summary'</defaultValue>
+        <description>Step 43: Enter input value in input summary - (Input data variable)</description>
+        <id>f3868012-2607-43e9-9124-a4cd4983f5b0</id>
+        <masked>false</masked>
+        <name>input_summary_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\\\33 '</defaultValue>
+        <description>Step 58: Click on link productLinks (product3) - (Dynamic locator variable)</description>
+        <id>cef52abe-8be9-47c1-a254-d8fb7cb7b0e9</id>
+        <masked>false</masked>
+        <name>link_productLinks_liTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'Description'</defaultValue>
+        <description>Step 15: Enter input value in textarea description - (Input data variable)</description>
+        <id>1d0a462f-7633-4b42-9e1d-41d6ad85f8e8</id>
+        <masked>false</masked>
+        <name>textarea_description</name>
+    </variable>
+    <variable>
+        <defaultValue>'Description'</defaultValue>
+        <description>Step 48: Enter input value in textarea description - (Input data variable)</description>
+        <id>fb770c8c-69b9-486e-b81a-a216efcdc64c</id>
+        <masked>false</masked>
+        <name>textarea_description_1</name>
+    </variable>
+</TestCaseEntity>

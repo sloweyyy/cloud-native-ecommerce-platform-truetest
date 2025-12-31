@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>1de9188d-9243-4d25-8a27-28d190bff479</id>
+        </flow>
+    </customField>
+    <description>Login and navigate to the store. Sign out and sign back in using Azure AD, then verify access to the store.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC24-Sign In and Verify Store Access</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>1f1b3ce2-e4b9-4539-b27d-b9913f9e8f13</testCaseGuid>
+</TestCaseEntity>

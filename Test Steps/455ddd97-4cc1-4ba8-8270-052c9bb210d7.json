@@ -1,0 +1,45 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to https://main.d2rkndqh64e9mb.amplifyapp.com",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Login",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Navigate to /",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on button userMenu",
+            "sub_steps": [],
+            "target_name": "button_userMenu"
+        },
+        {
+            "name": "Click on item signIn3 -> Navigate to page '/login'",
+            "sub_steps": [],
+            "target_name": "item_signIn3"
+        },
+        {
+            "name": "Click on button signInWithAzureAd3 -> Navigate to page '/'",
+            "sub_steps": [],
+            "target_name": "button_signInWithAzureAd3"
+        },
+        {
+            "name": "Click on button cart -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "button_cart"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

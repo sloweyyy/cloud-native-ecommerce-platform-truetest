@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>ee47cade-40c5-4f00-aca1-736c271adada</id>
+        </flow>
+    </customField>
+    <description>Navigate to the home page, log in, access the user menu, sign in with Azure AD, and add multiple items to the cart before verifying the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC22-Login and Add Multiple Items to Cart</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>4be1b7d0-4b20-4f6e-97b6-0ca99a9a7b9b</testCaseGuid>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Step 7: Click on button addToCart (addToCart) - (Dynamic locator variable)</description>
+        <id>d8dd878f-33d4-4487-a7f1-beab3c60bd95</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Step 8: Click on button addToCart (addToCart2) - (Dynamic locator variable)</description>
+        <id>2fcb7dd8-1bf4-4aff-962a-488c4da7714a</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Step 9: Click on button addToCart (addToCart3) - (Dynamic locator variable)</description>
+        <id>09557768-4ffd-4cdd-a5ba-3d9d51d96815</id>
+        <masked>false</masked>
+        <name>button_addToCart_nth_2</name>
+    </variable>
+</TestCaseEntity>
