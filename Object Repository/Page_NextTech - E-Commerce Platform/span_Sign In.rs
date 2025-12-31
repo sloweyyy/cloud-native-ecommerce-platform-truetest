@@ -6,12 +6,12 @@
    <elementGuidId>b9a0adf1-6c65-42a7-8c46-1b96e0ca83df</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div/div/div[2]/div/button/span[2]</value>
+         <key>CSS</key>
+         <value>[aria-label=&quot;User\ menu&quot;] span.ant-typography</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.ant-dropdown-trigger > button.ant-btn.css-s08xz4.ant-btn-text.ant-btn-color-default.ant-btn-variant-text > span.ant-typography.css-s08xz4</value>
+         <key>XPATH</key>
+         <value>//*[@aria-label = 'User menu']//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' ant-typography ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>37e4c04b-7178-47f9-987f-0b4d7b01f8c2</webElementGuid>
+      <webElementGuid>77a228d8-c0f3-46ab-84df-3c229f36c5fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-typography css-s08xz4</value>
-      <webElementGuid>158760c7-da8b-4393-8394-da0dc126fae0</webElementGuid>
+      <webElementGuid>4a2f16e4-f31a-45d6-9c48-9cbdbd3547e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,18 +45,42 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign In</value>
-      <webElementGuid>a440a9f9-83cb-4458-80eb-9ddb0900f5a8</webElementGuid>
+      <webElementGuid>8b6f87cb-0d46-45a9-88dd-0e858de7a224</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;ant-layout css-s08xz4&quot;]/div[1]/div[@class=&quot;ant-flex css-s08xz4 ant-flex-align-stretch ant-flex-vertical&quot;]/div[@class=&quot;ant-flex css-s08xz4&quot;]/div[@class=&quot;ant-flex css-s08xz4&quot;]/div[@class=&quot;ant-space css-s08xz4 ant-space-horizontal ant-space-align-center ant-space-gap-row-large ant-space-gap-col-large&quot;]/div[@class=&quot;ant-space-item&quot;]/div[@class=&quot;ant-dropdown-trigger&quot;]/button[@class=&quot;ant-btn css-s08xz4 ant-btn-text ant-btn-color-default ant-btn-variant-text&quot;]/span[@class=&quot;ant-typography css-s08xz4&quot;]</value>
-      <webElementGuid>facde9de-013e-4683-92ba-40c6a4d4ff62</webElementGuid>
+      <value>//*[@aria-label = 'User menu']//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' ant-typography ')]</value>
+      <webElementGuid>9dc4f930-bf03-4a5f-bcf4-5de1f1af5b19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-1437417cf34651221b40e8bf9bf43a1b</value>
+      <webElementGuid>3abd94e8-302e-481c-b5d0-4e904e13a86d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@aria-label = 'User menu']//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' ant-typography ')]</value>
+      <webElementGuid>86bb76e5-7e5e-4db8-a35c-0b2d617611b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Sign In' or . = 'Sign In')]</value>
+      <webElementGuid>0235db53-7cfc-428c-aeae-2ad98e26fdbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -110,13 +134,5 @@
       <type>Main</type>
       <value>//div/button/span[2]</value>
       <webElementGuid>9f60c3b7-35e9-4476-bb28-12f600be8331</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//span[(text() = 'Sign In' or . = 'Sign In')]</value>
-      <webElementGuid>7d696776-18a5-4ff6-8cf5-07ed1d40a23e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

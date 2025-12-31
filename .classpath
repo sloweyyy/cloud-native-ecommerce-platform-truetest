@@ -242,6 +242,5 @@
 	<classpathentry kind="lib" path="/Applications/Katalon Studio Enterprise v10.4.2.app/Contents/Eclipse/configuration/plugin/install/250267/1.0.3/katalon-studio-microsoftteam-keywords-plugin.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio Enterprise v10.4.2.app/Contents/Eclipse/configuration/plugin/install/243742/5.0.0/katalon-testcloud-keywords-plugin-all.jar"/>
 	<classpathentry kind="con" path="GROOVY_SUPPORT"/>
-	<classpathentry kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

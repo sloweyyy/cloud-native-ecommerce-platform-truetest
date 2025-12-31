@@ -10754,4 +10754,31 @@ java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMet
   <property name="startLine">22</property>
   <property name="stepIndex">1</property>
 </record>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<record>
+  <date>2025-12-31T03:36:35.139596Z</date>
+  <millis>1767152195139</millis>
+  <nanos>596000</nanos>
+  <sequence>539</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>521</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-12-31T03:40:44.255139Z</date>
+  <millis>1767152444255</millis>
+  <nanos>139000</nanos>
+  <sequence>683</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>681</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
 </log>

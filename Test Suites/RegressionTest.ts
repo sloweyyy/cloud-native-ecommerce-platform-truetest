@@ -12,368 +12,690 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>4790b136-8cfe-464b-9150-026ded090b17</testSuiteGuid>
    <testCaseLink>
-      <guid>72a0c41c-9650-4458-99a1-4c4d0c4cff10</guid>
+      <guid>3515597f-5099-484b-9808-80b4de4386cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AI-Generated/Production/TC1-Add Items to Cart and Verify Home Page</testCaseId>
+      <testCaseId>Test Cases/AI-Generated/Production/TC1-User Login and Checkout with Product Details</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>916fe80e-b59e-4294-9afa-a6a3e926791e</variableId>
+         <variableId>b0ef325b-5b9f-4855-b658-4ac41ba576e3</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>5ce90efd-ca42-4422-9089-6b8fffe388ba</variableId>
+         <variableId>12311491-6a42-4c45-aa43-32e8e2620e7c</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d8078248-7bdc-4b2c-aec4-2b718900376a</guid>
+      <guid>993d3796-ff91-49a7-849a-36e9b91839a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AI-Generated/Production/TC10-Login and Navigate to Home Page with Azure AD</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bc00c4c9-0814-4020-84d7-bc25e57b13aa</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AI-Generated/Production/TC11-Login and Verify Page Login with Azure AD</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3bd9b8f1-5086-42cd-a388-e9b17f3dd69c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AI-Generated/Production/TC2-Navigate and Verify Checkout Page from Store</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>933eae69-a88a-4e64-897f-563c8c57629e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AI-Generated/Production/TC3-Manage Cart and Navigate to Admin Page</testCaseId>
+      <testCaseId>Test Cases/AI-Generated/Production/TC10-Browse and Filter Products by Categories in Store</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>479ffc07-b434-44c5-8b55-7921cd1bce03</variableId>
+         <variableId>c6a578c7-7c17-4aa6-a071-76cdb1b274f8</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d634adf0-fffe-4f42-87ec-159cbdb4b4c6</variableId>
+         <variableId>f63f5090-bc3d-4103-aaf1-75b31c267baa</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>04b832d3-462b-416a-b335-515f4d177a84</variableId>
+         <variableId>d94b0172-b988-40ae-9528-3720b3e71860</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>1d6f832a-5d0c-4b39-a930-0968106e32e7</variableId>
+         <variableId>b7b9770e-93e6-4486-abd0-facde4c53f52</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d837af7a-c1a6-4f0d-8df6-211900b18bf0</variableId>
+         <variableId>829a510a-8885-49f2-a8b4-691b081daa22</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>bbb5e6d1-06e8-4172-a51d-c69b2d48d445</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>527c5260-3fc4-403d-9325-78a6ecff998a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AI-Generated/Production/TC4-Verify Navigation to Next Tech Home Page</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ae29e500-cbdf-4573-a779-dd759add43b2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AI-Generated/Production/TC5-Checkout Process with Multiple Items in Store</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1dbf2ef4-f489-40c8-8a63-3fca975f2adf</variableId>
+         <variableId>63bba139-6e29-4a63-8ad7-60f86e841819</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0412900b-ded3-4334-8b35-8c054d9f9586</variableId>
+         <variableId>dbc4b855-fbb1-448a-88c9-eac64058e8ae</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8ef615e6-84a8-44bb-a1db-e9494c7442b6</variableId>
+         <variableId>76bc60a9-70a5-4369-b788-27e844540de9</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>48339c14-189f-4d29-885e-64101c5311f2</variableId>
+         <variableId>0d50af05-f597-4f2a-87c5-39ecc72437a2</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>291cbfbd-7311-4559-a4e0-fb78c2d5e536</variableId>
+         <variableId>a57d3d91-a8a6-4a63-a3bf-26a3a5584f9b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8d819884-a952-431b-a115-ccf000d64f74</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>596a271f-6469-4c2c-bc83-cedaff7bc3c0</variableId>
+         <variableId>290b6214-aaa2-4986-add5-4469db3bec20</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4cc5af4f-46af-47ab-ab46-5612f75f9617</guid>
+      <guid>119a7cec-a669-449e-b0c3-bf5488d125c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AI-Generated/Production/TC6-Navigate and Sign In to Store Categories</testCaseId>
+      <testCaseId>Test Cases/AI-Generated/Production/TC11-Sign In and Verify Home Page Access</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>33e91676-c1a9-4bcd-88fd-c9e6a6cd4744</guid>
+      <guid>07043317-0fa6-4478-8e60-d6825b00dc92</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AI-Generated/Production/TC7-Create New Product After Browsing Store and Admin Panel</testCaseId>
+      <testCaseId>Test Cases/AI-Generated/Production/TC12-Edit User Profile and Navigate Back to Home</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>490edd81-22d0-403d-8e83-58aec9762c58</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC13-User Login and Navigation to Home Page (1)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0998b415-7826-4d55-b77c-1aea3a176b7f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC14-Create New Product in Admin Panel and Verify</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>42982565-3a08-45b2-98e4-754b796b1ffc</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>36726d69-7800-46f6-a0cd-cbae814fe790</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>83fea33c-dd50-45f8-9e42-892a8e6b7d4f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>24b9d9e3-4203-4658-bb2b-2043881012b8</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9db7252a-392e-4938-b3b3-f3edc1555352</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3c903f7e-6f6c-4fcd-971e-a85ba81ed303</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>004aa5a9-9e1c-46f2-8d89-17836a400dca</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>afb28eec-4872-4eb9-8b73-306f446b7789</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0f93b321-bc9f-48f9-9e5a-b306710e5e00</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ee6c3a00-7813-4b85-a1a6-028582fe2a2d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7e901395-bb4e-4321-81c7-0c193d7a3036</variableId>
+         <variableId>b752e519-85e0-43dd-95aa-9c1beaa59641</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>571c3613-b8f8-4101-90d7-90dcaa875246</guid>
+      <guid>77799023-980a-4a71-9bf7-0fa814a07e2f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AI-Generated/Production/TC8-Create and Verify New Product in Admin Panel</testCaseId>
+      <testCaseId>Test Cases/AI-Generated/Production/TC15-Update Product Information and Export Activities</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>2644fea2-ebf3-4d34-86a0-789a364ec952</variableId>
+         <variableId>5314b794-cd16-4ed7-815d-322a03174e26</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>1db92cba-64be-4357-9684-4bfb9fbaa802</variableId>
+         <variableId>ed69640b-4454-4281-a785-5c3b730f187d</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>97b02bf4-197c-4d5b-b2df-51e3bdba1fb1</variableId>
+         <variableId>1b078634-5efc-4c78-81d3-a4f800de5758</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>550e0903-56e7-4411-8d30-2716ab6cacf2</variableId>
+         <variableId>50f8b6fb-f306-44b4-ae30-bf68aa60379b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>9c32a433-752e-4c42-8c1c-2a17bcd61cac</variableId>
+         <variableId>ef301cc8-ff9c-4ca7-be70-bbd8d52b976e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>bd438d62-1c33-42d9-8448-105a1cab438a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>618137ea-811f-4cf0-8d41-1510a027e34d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>dff7b882-1966-492d-9f52-61cc059f681f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d0e131bc-3026-4d09-8d4e-bc92d9a9a9e6</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>84cae804-6534-409f-a5b4-82454588ba2d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cc65acad-99c5-48b8-918b-53e858c9444c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>acc09476-36ea-4c0a-92a6-72769e4bb56b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>974d8c94-868e-47b2-9adf-b8891b6c2306</variableId>
+         <variableId>599b9f8e-01ae-4da4-8717-dd6ac72f5579</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ac2e30bb-59fc-4ea2-976d-f75a5e7e7a66</guid>
+      <guid>540b91c7-0555-4abd-acbb-0b424d3e6782</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AI-Generated/Production/TC9-Manage Shopping Cart and Checkout Process</testCaseId>
+      <testCaseId>Test Cases/AI-Generated/Production/TC16-Login and Navigate to Next Tech Home Page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>05462b89-1914-4dbd-a06d-cde7b891ce8a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC17-User Login and Navigation to Home Page (2)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8f938057-6815-45f2-b46d-f42dafb7f1f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC18-Login and Access Admin Page using Azure AD</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f5e9765c-c51b-4ffd-896a-f9aeafa40902</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC19-Verify User Sign In with Azure AD from Home Page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4c2a0cda-6ab9-40d9-9a57-cfb7337d58c8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC2-Checkout Process from Store and Verify Checkout Page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4c88cbcf-e1b9-4565-b36c-b047d7af6cb4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC20-Verify User Sign In with Azure AD and Store Access</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>61edc6a8-98a2-4457-be7d-9d4a4103c5f5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC21-Verify User Sign In with Azure AD from Alternative Button</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8cded8e3-897f-41c6-a1d5-a6567d1a0552</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC22-Login and Add Multiple Items to Cart</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>65ea511b-f0f3-45a2-93d9-55074f235bb7</variableId>
+         <variableId>d8dd878f-33d4-4487-a7f1-beab3c60bd95</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8aa0f5b2-4311-4ffa-b5e9-9bffe6001ca4</variableId>
+         <variableId>2fcb7dd8-1bf4-4aff-962a-488c4da7714a</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>cebdb97f-125e-4dd6-bf13-429daf1e2ff3</variableId>
+         <variableId>09557768-4ffd-4cdd-a5ba-3d9d51d96815</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aac24fab-6774-417a-a029-29dc328551fa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC23-Login and Navigate to Home and Store</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>75685028-b345-4ab9-ae14-ebf751f00406</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC24-Sign In and Verify Store Access</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>38308bf5-a25b-437b-9fa5-2b532f41d01a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC25-Add and Remove Items from Cart with Multiple Checkouts</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2d1d8a3c-379a-485a-b08b-6bf833e413b8</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>499f476e-3536-4450-87be-1d28b96b48f4</variableId>
+         <variableId>2fc8b452-7551-48be-aeab-79584a3a82e8</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d75af698-b457-4a60-8eb4-aa66905d4f70</variableId>
+         <variableId>3b8e32b5-76e5-4985-a0ae-f5c29099df98</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0c326494-2759-435b-b8eb-d4023754d4c7</variableId>
+         <variableId>6d107621-57d6-4256-847f-e0be03da325e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>2c781364-195f-4f29-8428-1b3b31ef934d</variableId>
+         <variableId>e87c285f-d1b1-4f47-b2d5-4f7c2410f8b8</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>6d3181ad-ff00-40ed-845a-3f6619f21ab9</variableId>
+         <variableId>f46ba74f-7dc9-4a5f-9c98-0e3b0d06aa11</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>4359c4f2-9d17-460f-a8c9-3cfdc1decc5e</variableId>
+         <variableId>e33c7a62-6167-4b8d-af8e-1991c9449c5d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>00749f97-e871-469d-9ff0-b45d94c757fe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bba4dee8-613f-4f8b-ba6d-51c7762d4f1d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6f395484-812e-43b5-a979-5b89e86e82e9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>241644c4-0a1a-4a0b-ad1f-515a9700dada</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC26-Login and Access Cart from Home Page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>67dd3b59-a064-4559-92fe-afdaa3830b62</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC27-Verify User Sign In with Azure AD from User Menu</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>556f63dd-82e2-4dc7-997a-5806e7fd141a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC3-Manage Shopping Cart and Verify Admin Page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c354d629-9853-43c3-b38d-03de823b243a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9f44c076-4846-4dc3-b4a3-398545776721</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c9e40987-92f2-4c88-af77-b9f99647c7f7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>96389df3-4264-4b26-9ff5-f5b215994427</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fbc2199d-a76f-4bb6-ab49-94e14180b273</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>12bf7651-a0d7-4162-8b0e-d4c54511ab3a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fcda9d76-51cd-48e8-b23b-d87763950ccf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC4-Checkout Process with User Menu and Actions</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2f227e23-3731-49d6-96ab-ef19fe6f02a5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1856eddb-0a94-4734-92c9-e0de5f5dd134</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>11713fcf-d936-4423-8e28-eca2dc9c6e72</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1fbbacb2-2b65-44d1-8208-2c0d7a4928e6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>53f16f58-7aaa-497b-96fd-c9ef40c4e99d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7c4bd6dd-e43a-4593-bcfe-fa054a5dac81</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>12d8386a-916e-412a-a225-e40c9cc99d46</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>541b001a-e534-4cdf-adef-75eeb8c24094</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC5-Create New Product and Verify Home Page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>32f35550-3331-4839-b2a3-dc6be41092d8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eb42c330-e523-487f-b9a9-5ac747587207</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>df756a7e-8d2b-467f-a89d-4320c89d0b32</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>802b6aef-6366-44bc-85b4-dc31d8fe48ca</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7823cb4c-6728-404f-862e-d4092d6d6618</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1aaad98d-32fe-4807-a46b-b34a446a098b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>87cb1845-39bf-4770-91d4-eefe3e1402e8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9c254d67-2d0d-4323-ba1e-e6bbc5c51408</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c7e081dd-e965-40da-adfb-97f4a7790b6a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>be570643-2a60-474e-a5cb-3c93551fa71a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8940d6ea-9315-4dc3-a5d4-fbf6d3a075f3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>93053834-d7ee-4bc7-9af8-554d64c6c187</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8ad22011-868b-4730-9d97-1606d4c95e78</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC6-Create New Product in Admin Panel</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c73f002b-9cf1-4a7b-bc94-bb00139c9021</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>99cda243-5fdc-490c-9370-c2fd9f7817b4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9eb75ffe-4345-49bd-9bf9-7772d8fad921</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9a55585d-0b8b-4fde-b818-f17e04c060de</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d2e3d6d6-cd16-46fe-9eaa-b46c023de73b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>67b4837e-c125-411c-9c35-e05f38dcfc49</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>01980e7b-9b3c-4c12-9231-e4e5a37e031b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>be0e572a-2388-4044-a6c4-b4daff593b6c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>829f96f0-b356-4ba9-9d02-aa83ac857029</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>53509372-4c2d-4077-8488-2055673bfdad</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f3868012-2607-43e9-9124-a4cd4983f5b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cef52abe-8be9-47c1-a254-d8fb7cb7b0e9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1d0a462f-7633-4b42-9e1d-41d6ad85f8e8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fb770c8c-69b9-486e-b81a-a216efcdc64c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ee5c12c7-ccaf-47c8-9362-99ff7018e9c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC7-Add Multiple Items to Cart and Checkout Process</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5fa2102b-7454-4e74-95df-3627099d8cc5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a92c953c-13be-48ad-9dcb-73f744570794</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f90f8732-5c96-4a26-9416-47188dd3a327</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>97c55a68-3d87-4e34-8dd4-5e63011b4747</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7ffb97cc-387e-47f3-ad38-75d42391ad6b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>033d2ab4-2eb6-4c2c-a89e-f817b7cbb5a7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>10bd6594-82b2-48a1-b449-ace697e38cc3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7d1a557e-a385-4962-9918-142ae0a0e5f1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>81d0f8dc-0150-43d8-a699-0e3a93622825</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a3ca006f-5105-4de7-9f03-367fbb38b6b6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC8-View Product Details and Check Availability</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eebe1212-b9bd-4cee-a6fd-778b57a9906d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AI-Generated/Production/TC9-Add Items to Cart and Place Order After Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>90dce564-20f1-4d24-b160-c9b740ff682e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d70b9847-475e-438c-9322-fab17518c7db</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

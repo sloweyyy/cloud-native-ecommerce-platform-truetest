@@ -6,12 +6,12 @@
    <elementGuidId>a523cddb-4f4d-45a3-8ccb-caa3d5e43459</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in for the best experience'])[1]/following::strong[1]</value>
+         <key>CSS</key>
+         <value>.ant-dropdown-menu-title-content > span.ant-typography strong</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>span.ant-dropdown-menu-title-content > span.ant-typography.css-s08xz4 > strong</value>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' ant-dropdown-menu-title-content ')]/span[@class and contains(concat(' ', normalize-space(@class), ' '), ' ant-typography ')]//strong</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>strong</value>
-      <webElementGuid>663d5cd1-54c3-4d45-92ac-b3d27e786856</webElementGuid>
+      <webElementGuid>9566e0c5-4acd-4428-be2a-a7d2883a4f96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,18 +37,42 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign In</value>
-      <webElementGuid>c1734c8b-eb83-42e8-bf8d-c0f62c8ba6de</webElementGuid>
+      <webElementGuid>a4e81a5f-f86e-4c04-8aa0-57374d3b25f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[2]/div[@class=&quot;ant-dropdown css-s08xz4 ant-dropdown-placement-bottomRight&quot;]/ul[@class=&quot;ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-vertical ant-dropdown-menu-light css-s08xz4&quot;]/li[@class=&quot;ant-dropdown-menu-item ant-dropdown-menu-item-active&quot;]/span[@class=&quot;ant-dropdown-menu-title-content&quot;]/span[@class=&quot;ant-typography css-s08xz4&quot;]/strong[1]</value>
-      <webElementGuid>d25a335e-cb6d-41d3-b151-44c12bc930be</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' ant-dropdown-menu-title-content ')]/span[@class and contains(concat(' ', normalize-space(@class), ' '), ' ant-typography ')]//strong</value>
+      <webElementGuid>509c098d-4d3d-4336-b2fd-a9821f79afbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9444fab17f65c1e061c3bc0c4e08d6ed</value>
+      <webElementGuid>b8feddeb-f7a1-41ea-a792-db66ecf12b9a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' ant-dropdown-menu-title-content ')]/span[@class and contains(concat(' ', normalize-space(@class), ' '), ' ant-typography ')]//strong</value>
+      <webElementGuid>1a9e1e8b-3d38-4cd1-aa32-251838a89a1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = 'Sign In' or . = 'Sign In')]</value>
+      <webElementGuid>364bbd04-1aa2-4669-b193-a091f2ec4211</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
@@ -78,13 +102,5 @@
       <type>Main</type>
       <value>//span[2]/span/strong</value>
       <webElementGuid>eb2c563f-a138-40c4-aed1-e7fa71a9e2ef</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//strong[(text() = 'Sign In' or . = 'Sign In')]</value>
-      <webElementGuid>6fecf34a-9710-430a-9d6d-87ae2d5dfc2d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

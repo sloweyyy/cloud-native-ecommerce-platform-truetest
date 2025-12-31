@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "71CD8817723CCF55BB450B9FBC3C7763",
+  "keywordFileContentHash": "6BBD80E4F3634A607CA263D64CA57768",
   "keywordClasses": [
     {
       "name": "truetest.Production.custom.TrueTestScripts",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
